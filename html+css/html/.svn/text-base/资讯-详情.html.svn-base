@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>资讯详情</title>
+    <link rel="stylesheet" href="../font/iconfont.css" />
+    <link href="../css/main.css" rel="stylesheet">
+    <script src="../js/jquery.js"></script>
+    <script src="../js/jquery.SuperSlide.2.1.1.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/module/info_detail.js"></script>
+</head>
+<body>
+    <div  class="header">
+        <div class="top layoutMid clear">
+        <h1 class="logo fl"><a class="pngFix" href="javascript:;"></a></h1>
+        <a class="toggle_nav" href="javascript:;"></a>
+        <ul class="main_nav fl clear">
+            <li><a href="javascript:;">首页</a></li>
+            <li><a href="javascript:;">学习</a></li>
+            <li><a class="current" href="javascript:;">资讯</a></li>
+            <li><a href="javascript:;">问答</a></li>
+        </ul>
+        <div class="user fr" >
+            <a class="clear" href="javascript:;"><span class="user_head fl"><img src="../img/user_head.jpg"><i class="notice_num pngFix">1</i></span><span class="user_name fl">maxiaoning</span></a>
+            <ul class="sub_menu clear" >
+                <li class="icoTop"><span></span></li>
+                <li><a href="javascript:;">我的主页</a></li>
+                <li><a href="javascript:;">消息(1)</a></li>
+                <li><a href="javascript:;">设置</a></li>
+                <li><a class="log_out" href="javascript:;">退出</a></li>
+            </ul>
+        </div>
+        <div class="log_res fr" >
+            <a href="javascript:;">登录/注册</a>
+        </div>
+        <div class="queation fr"><a href="javascript:;">提问</a></div>
+        <div class="search pr fr clear">
+            <input type="text" class="fl" placeholder="请输入关键字" />
+            <a class="search_btn pngFix" href="javascript:;">搜索</a>
+            <div class="search_box">
+                <dl>
+                    <dt>课程</dt>
+                    <dd><a href="javascript:;"><em>《<span class="orange">保险</span>业发展与前景》</em><i>赞(28)</i><i>课程时长：128分钟</i></a></dd>
+                    <dd><a href="javascript:;"><em>《<span class="orange">保险</span>业发展与前景》</em><i>赞(28)</i><i>课程时长：128分钟</i></a></dd>
+                    <dd><a href="javascript:;"><em>《<span class="orange">保险</span>业发展与前景》</em><i>赞(28)</i><i>课程时长：128分钟</i></a></dd>
+                    <dt>问答</dt>
+                    <dd><a href="javascript:;"><em><span class="orange">保险</span>的作用是什么？前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么？</em><i>4个回答</i></a></dd>
+                    <dd><a href="javascript:;"><em><span class="orange">保险</span>的作用是什么？前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么？</em><i>4个回答</i></a></dd>
+                    <dd><a href="javascript:;"><em><span class="orange">保险</span>的作用是什么？前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么？</em><i>4个回答</i></a></dd>
+                    <dt>资讯</dt>
+                    <dd><a href="javascript:;"><em><span class="orange">保险</span>业发展与前景发展与前景发展与前景发展与前景发展与前景发展与前前景发展与前景发展与前前景发展与前景发展与前景发</em><i>赞(28)</i><i>评论(28)</i></a></dd>
+                    <dd><a href="javascript:;"><em><span class="orange">保险</span>业发展与前景发展与前景发展与前景发展与前景发展与前景发展与前景发</em><i>赞(28)</i><i>评论(28)</i></a></dd>
+                    <dd><a href="javascript:;"><em><span class="orange">保险</span>业发展与前景发展与前景发展与前景发展与前景发展与前景发展与前景发</em><i>赞(28)</i><i>评论(28)</i></a></dd>
+                    <dt>用户</dt>
+                    <dd class="search_user"><a class="clear" href="javascript:;"><img src="../img/zone_pic02.jpg"><em><span class="orange">保险</span>人</em><br><i>梦由心动，跟我走吧，开心不由你！</i></a></dd>
+                    <dd class="search_user"><a class="clear" href="javascript:;"><img src="../img/zone_pic02.jpg"><em><span class="orange">保险</span>人</em><br><i>梦由心动，跟我走吧，开心不由你！</i></a></dd>
+                    <dd class="search_user"><a class="clear" href="javascript:;"><img src="../img/zone_pic02.jpg"><em><span class="orange">保险</span>人</em><br><i>梦由心动，跟我走吧，开心不由你！</i></a></dd>
+                </dl>
+                <p><a href="javascript:;">查看全部搜索结果</a></p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="main layoutMid clear mt-30">
+        <div class="info_main_block">
+            <div class="info_title"><span class="info_tag">考试资讯</span><a  href="javascript:;">永兴元推出深圳车险理赔员职业鉴定培训课程<img src="../img/hotnew.gif" /> </a></div>
+            <div class="info_keywords_block clear">
+                <i class="txt-tag bg-gray">资格考试</i>
+                <i class="txt-tag bg-gray">合规销售</i>
+                <i class="txt-tag bg-gray">心理学</i>
+            </div>
+            <div class="mt-10 info_title_border">
+                <span class="mr-10 fs-14 c-999">来源：保宝网</span>
+                <span class="mr-10 fs-14 c-999">2014-12-02 14:00</span>
+                <a class="action comments mr-10"  href="javascript:;">评论(<i class="Num">1</i>)</a>
+                <a class="action share" href="javascript:;">分享</a>
+            </div>
+            <div class="info_main_content">
+                <p>汽车在正规停车场丢了不赔、车辆被盗未遂但车锁损坏不赔……不少车主以为为爱车购买保险，就算遭遇交通事故也能“万事无忧”。近日，保监会通过官方微信发布车主可能误解的车险理赔常识，梳理了车主及家人常见的8大误区。</p>
+                <div><img src="../img/infocontent.gif" /></div>
+                <p>比如下面两个案例，当事人就陷入保险公司会赔付的误区：“侄女前不久结婚，就将车借用去当婚车，用于摄像，不料天窗被人用硬物损坏，导致漏水。”市民张先生说，他当即向保险公司报案，原本以为可使用车损险进行理赔，但保险公司查勘员前往定损时，却告知这属于人为恶意损坏，不在理赔范围内。无奈之下，张先生只能自己买单。</p>
+                <p>与张先生遭遇类似，李小姐把车停在路边，次日发现右前窗玻璃被砸碎。考虑到投保过玻璃单独破损险，她立即申请理赔。但保险公司客服询问详情后称：“他人故意行为造成车辆损害，这样的情况保险公司不受理。”</p>
+                <p>现象：驾驶员倒车时，家人站在车边指挥。操作失误后，车辆不小心撞伤了自家人。按照第三者责任险中有一条免责条款规定，被保险人或驾驶人以及他们的家庭成员人身伤亡及其所有或保管的财产的损失，不负责赔偿。事实上，车主从多个类似案例获知，车辆撞　　到自家人，属于免赔范围。这是由于保险公司防范道德风险，且自家人不属于第三者范畴。</p>
+                <p>回应：有的车险条款中，车灯、倒车镜单独损坏属于一个单独险种，需要车主附加投保以后才会获得赔付。市内一家保险公司人员表示，在有的车险条款中，车灯、倒车镜单独破损，是可以获得赔付的。</p>
+                <p>现象：驾驶员倒车时，家人站在车边指挥。操作失误后，车辆不小心撞伤了自家人。按照第三者责任险中有一条免责条款规定，被保险人或驾驶人以及他们的家庭成员人身伤亡及其所有或保管的财产的损失，不负责赔偿。事实上，车主从多个类似案例获知，车辆撞　　到自家人，属于免赔范围。这是由于保险公司防范道德风险，且自家人不属于第三者范畴。</p>
+                <p>回应：有的车险条款中，车灯、倒车镜单独损坏属于一个单独险种，需要车主附加投保以后才会获得赔付。市内一家保险公司人员表示，在有的车险条款中，车灯、倒车镜单独破损，是可以获得赔付的。</p>
+                <p>现象：驾驶员开车，一不小心撞到马路沿，车辆其余地方均未损坏，但车辆轮胎爆胎了。若你向保险公司报案说“车辆轮胎爆了”，可能被告知“车辆单独爆胎不能赔付”。一些车主将车停在小区楼下，次日却发现轮胎“不翼而飞”。即使车主投保了盗抢险，保险公司也可能告知，盗抢险针对整车被盗进行赔偿，部分零部件丢失在盗抢险免责条款内，所以拒赔。</p>
+                <p>回应：尽管车轮、轮毂等消耗磨损较大的零配件，目前还没设相应的理赔条款供车主投保，但车主报案方式得当，就可能取得不同的效果。例如，事故造成车辆轮胎单独爆胎，可以获得赔付。若在正常行驶过程中爆胎，比如轮胎老化、扎到马路上的铁钉等，则不能获得赔付。</p>
+            </div>
+            <div class="article_jump">
+                <p class="clear"><span>上一篇：</span><a  href="javascript:;">张先生遭遇类似张先生遭遇类似张先生遭遇类似张先生遭遇类似张先生遭遇类似，李小姐把车停在路边</a> </p>
+                <p class="clear"><span>下一篇：</span><a  href="javascript:;">驾驶员开车，一不小心撞到马路沿</a> </p>
+            </div>
+            <div class="news_social">
+                <a href="javascript:;" class="news_assist" >
+                    <i class="text">赞</i>
+                    <i class="numbox">
+                        (
+                        <i class="num">11</i>
+                        )
+                    </i>
+                </a>
+                <a href="javascript:;" class="news_col" ><i>收藏</i></a>
+            </div>
+            <div class="baidu_share clear">
+                <p class="fl">分享到：</p><div class="bdsharebuttonbox fl"><a  href="javascript:;" class="bds_more" data-cmd="more"></a><a title="分享到QQ空间"  href="javascript:;" class="bds_qzone" data-cmd="qzone"></a><a title="分享到新浪微博"  href="javascript:;" class="bds_tsina" data-cmd="tsina"></a><a title="分享到腾讯微博"  href="javascript:;" class="bds_tqq" data-cmd="tqq"></a><a title="分享到人人网"  href="javascript:;" class="bds_renren" data-cmd="renren"></a><a title="分享到微信"  href="javascript:;" class="bds_weixin" data-cmd="weixin"></a></div>
+                <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+            </div>
+            <div class="might_inter">
+                <div class="might_inter_title"><span>你可能感兴趣</span></div>
+                <div class="listblock02">
+                    <ul class="list02">
+                        <li><a  href="javascript:;">关于华南理工大学2014-2015关于华南理工大学2014-2015关于华南理工大学2014-2015关于华南理工大学...5关于华南理工大学</a><span>2015-10-10</span> </li>
+                        <li><a  href="javascript:;">关于华南理工大学2014-2015关于华南理工大学2014-2015关于华南理工大学2014-2015关于华南理工大学...5关于华南理工大学</a><span>2015-10-10</span> </li>
+                        <li><a  href="javascript:;">关于华南理工大学2014-2015关于华南理工大学2014-2015关于华南理工大学2014-2015关于华南理工大学...5关于华南理工大学</a><span>2015-10-10</span> </li>
+                        <li><a  href="javascript:;">关于华南理工大学2014-2015关于华南理工大学2014-2015关于华南理工大学2014-2015关于华南理工大学...5关于华南理工大学</a><span>2015-10-10</span> </li>
+                        <li><a  href="javascript:;">关于华南理工大学2014-2015关于华南理工大学2014-2015关于华南理工大学2014-2015关于华南理工大学...5关于华南理工大学</a><span>2015-10-10</span> </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="info_comment_box">
+                <div class="info_comment_title" id="info_comment_title"><span>评论</span><em>(2)</em></div>
+                <div class="info_comment_publish">
+                    <textarea placeholder="在此发表你的评论"></textarea>
+                    <div class="info_comment_publish_btn clear"><p class="fl"><a  href="javascript:;">登陆</a>后参与评论</p><a   href="javascript:;" class="fr publish_btn">发表</a> </div>
+                </div>
+                <div class="info_comment_block">
+                    <ul class="info_comment_list">
+                        <li class="clear bt_dashed bb_dashed">
+                            <div class="info_comment_userbox fl" id="info_comment_userbox"  >
+                                <a  href="javascript:;" class="info_comment_userpic"><img src="../img/user01.gif" /></a>
+                                <a  href="javascript:;" class="info_comment_username">陈小明</a>
+                            </div>
+                            <div class="info_comment_each fr">
+                                <p class="info_comment_text">可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！</p>
+                                <div class="fri_action clear mb_5">
+                                    <span class="mr-10 fs-14 c-999">13分钟前</span>
+                                    <a class="action assist" href="javascript:;">
+                                        <i class="text">赞</i>
+                                        <i class="numbox">
+                                            (
+                                            <i class="num">3</i>
+                                            )
+                                        </i>
+                                    </a>
+                                    <a class="action reply" href="javascript:;">回复</a>
+                                    <a class="action report" href="javascript:;">举报</a>
+                                </div>
+                                <div class="reply_block">
+                                    <input type="text" placeholder="回复 程晓明：">
+                                    <div class="info_comment_publish_btn clear"><a   href="javascript:;" class="fr publish_btn">发表</a> </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="clear bb_dashed">
+                            <div class="info_comment_userbox fl">
+                                <a  href="javascript:;" class="info_comment_userpic"><img src="../img/user01.gif" /></a>
+                                <a  href="javascript:;" class="info_comment_username">陈小明</a>
+                            </div>
+                            <div class="info_comment_each fr">
+                                <p class="info_comment_text">可以报名报名了不以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！</p>
+                                <div class="fri_action clear mb_5">
+                                    <span class="mr-10 fs-14 c-999">13分钟前</span>
+                                    <a class="action assist" href="javascript:;">
+                                        <i class="text">赞</i>
+                                        <i class="numbox">
+                                            (
+                                            <i class="num">3</i>
+                                            )
+                                        </i>
+                                    </a>
+                                    <a class="action reply" href="javascript:;">回复</a>
+                                    <a class="action report" href="javascript:;">举报</a>
+                                </div>
+                                <div class="reply_block">
+                                    <input type="text" placeholder="回复 程晓明：">
+                                    <div class="info_comment_publish_btn clear"><a   href="javascript:;" class="fr publish_btn">发表</a> </div>
+                                </div>
+                                <ul class="info_comment_reply_list">
+                                    <li class="clear">
+                                        <div class="reply_userpic fl"><a  href="javascript:;"> <img src="../img/replyuser.gif" /> </a></div>
+                                        <div class="reply_content fr">
+                                            <p><a  href="javascript:;" class="usercard_name">马小宁：</a><strong>回复 <a  href="javascript:;" class="usercard_name">陈小明 ：</a> </strong><span>是啊终于可以了。是啊终于可以了。是啊终于可以了对对。是啊终于可以了对对。是啊终于可,是啊终于可以了。</span></p>
+                                            <div class="fri_action clear mb_5">
+                                                <span class="mr-10 fs-14 c-999">13分钟前</span>
+                                                <a class="action assist" href="javascript:;">
+                                                    <i class="text">赞</i>
+                                                    <i class="numbox">
+                                                        (
+                                                        <i class="num">3</i>
+                                                        )
+                                                    </i>
+                                                </a>
+                                                <a class="action reply" href="javascript:;">回复</a>
+                                                <a class="action report" href="javascript:;">举报</a>
+                                            </div>
+                                            <div class="reply_block" >
+                                                <input type="text" placeholder="回复 程晓明：">
+                                                <div class="info_comment_publish_btn clear"><a   href="javascript:;" class="fr publish_btn">发表</a> </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="clear">
+                                        <div class="reply_userpic fl"><a  href="javascript:;"> <img src="../img/replyuser.gif" /> </a></div>
+                                        <div class="reply_content fr">
+                                            <p><a  href="javascript:;"  class="usercard_name">马小宁：</a><strong>回复 <a  href="javascript:;" class="usercard_name">陈小明 ：</a> </strong><span>是啊终于可以了。是啊终于可以了。是啊终于可以了对对。是啊终于可以了对对。是啊终于可,是啊终于可以了。</span></p>
+                                            <div class="fri_action clear mb_5">
+                                                <span class="mr-10 fs-14 c-999">13分钟前</span>
+                                                <a class="action assist" href="javascript:;">
+                                                    <i class="text">赞</i>
+                                                    <i class="numbox">
+                                                        (
+                                                        <i class="num">3</i>
+                                                        )
+                                                    </i>
+                                                </a>
+                                                <a class="action reply" href="javascript:;">回复</a>
+                                                <a class="action report" href="javascript:;">举报</a>
+                                            </div>
+                                            <div class="reply_block" >
+                                                <input type="text" placeholder="回复 程晓明：">
+                                                <div class="info_comment_publish_btn clear"><a   href="javascript:;" class="fr publish_btn">发表</a> </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="clear bb_dashed">
+                            <div class="info_comment_userbox fl">
+                                <a  href="javascript:;" class="info_comment_userpic"><img src="../img/user01.gif" /></a>
+                                <a  href="javascript:;" class="info_comment_username">陈小明</a>
+                            </div>
+                            <div class="info_comment_each fr">
+                                <p class="info_comment_text">可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！可以报名了不错！</p>
+                                <div class="fri_action clear mb_5">
+                                    <span class="mr-10 fs-14 c-999">13分钟前</span>
+                                    <a class="action assist" href="javascript:;">
+                                        <i class="text">赞</i>
+                                        <i class="numbox">
+                                            (
+                                            <i class="num">3</i>
+                                            )
+                                        </i>
+                                    </a>
+                                    <a class="action reply" href="javascript:;">回复</a>
+                                    <a class="action report" href="javascript:;">举报</a>
+                                </div>
+                                <div class="reply_block">
+                                    <input type="text" placeholder="回复 程晓明：">
+                                    <div class="info_comment_publish_btn clear"><a   href="javascript:;" class="fr publish_btn">发表</a> </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="jump_page">
+                        <div class="fr">
+                            <a  href="javascript:;">上一页</a>
+                            <a  href="javascript:;" class="on">下一页</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="info_side_block">
+            <div class="listblock01 fr">
+                <p class="list01_title">最新公告</p>
+                <ul class="list01">
+                    <li><a  href="javascript:;">014秋“华工校园文化之旅之旅</a><span>2014-11-20</span> </li>
+                    <li><a  href="javascript:;">014秋“华工校园文化园文化园文化之旅之旅</a><span>2014-11-20</span> </li>
+                    <li><a  href="javascript:;">014秋“华工校园文化之旅之旅</a><span>2014-11-20</span> </li>
+                    <li><a  href="javascript:;">014秋“华工校园文化之旅之旅</a><span>2014-11-20</span> </li>
+                    <li><a  href="javascript:;">0园文化之旅14秋“华工校园文化之旅之旅</a><span>2014-11-20</span> </li>
+                    <li><a  href="javascript:;">014秋“华工校园文化之旅之旅</a><span>2014-11-20</span> </li>
+                    <li><a  href="javascript:;">014秋“华工校园文化之旅之旅</a><span>2014-11-20</span> </li>
+                    <li><a  href="javascript:;">014秋“华工校园文化之旅之旅</a><span>2014-11-20</span> </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="copy_right layoutMid clear">
+            <div class="side">
+                <dl>
+                    <dt>保宝网</dt>
+                    <dd><a href="#">关于保宝网</a></dd>
+                    <dd><a href="#">保险导航</a></dd>
+                    <dd><a href="#">注册协议</a></dd>
+                    <dd><a href="#">网站声明</a></dd>
+                    <dd><a href="#">帮助中心</a></dd>
+                </dl>
+            </div>
+            <div class="container clear">
+                <dl>
+                    <dt>合作单位</dt>
+                    <dd><a href="#">华南理工大学网络教育平台</a></dd>
+                    <dd><a href="#">武汉大学网络教育平台</a></dd>
+                    <dd><a href="#">北京语言大学网络教育平台</a></dd>
+                </dl>
+                <dl>
+                    <dt>专用通道</dt>
+                    <dd><a href="#">保险行业协会</a></dd>
+                    <dd><a href="#">教育培训信息平台</a></dd>
+                    <dd><a href="#">保险信息服务平台</a></dd>
+                </dl>
+            </div>
+            <div class="sidebar">
+                <h2><img src="../img/footer_logo.gif"></h2>
+                <ul>
+                    <li>© 1998-2014 保宝网</li>
+                    <li>All Rights Reserved</li>
+                    <li>粤ICP备09098678号-7</li>
+                    <li>增值电信业务经营许可证：粤B2-20040624</li>
+                </ul>
+                <p class="copyright_link clear">
+                    <i class="CRlink01">深圳网络警<br>察报警平台</i>
+                    <i class="CRlink02">公共信息安<br>全网络监察</i>
+                    <i class="CRlink03">工商网监<br>电子标识</i>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--遮罩-->
+    <div class="share_bg dn"></div>
+    <!--登陆-->
+    <div class="log_box">
+        <div class="log_box_shadow">
+            <div class="log_hd clear">
+                <a class="log_tab log fl log_current" href="javascript:;">登录</a>
+                <a class="log_tab res fr" href="javascript:;">注册</a>
+                <a class="log_close pngFix" href="javascript:;"></a>
+            </div>
+            <div class="log_bd clear">
+                <div class="log_part fl" style="display:block">
+                    <ul class="input">
+                        <li><input class="input_text" type="text" /><i>请输入用户名</i></li>
+                        <li><input class="input_text" type="password" /><i>请输入密码</i></li>
+                        <li><input class="input_text" type="text" /><i>请输入验证码</i><img class="code" src="../img/code.jpg"></li>
+                    </ul>
+                    <p class="clear"><a href="javascript:;" class="checked fl">记住密码</a><a href="javascript:;" class="fr">忘记密码？</a></p>
+                    <div class="log_btn"><a href="javascript:;">登  录</a></div>
+                    <div class="log_code">
+                        <i><img src="../img/service_code.jpg"></i>
+                        <span>使用微信扫描二维码登录</span>
+                    </div>
+                </div>
+                <div class="log_part fl">
+                    <ul class="input">
+                        <li><input class="input_text" type="text" /><i>请输入用户名</i></li>
+                        <li class="log_tips"><p>※用户名为6~18位字符，包含字母和数字</p></li>
+                        <li><input class="input_text" type="password" /><i>请输入密码</i></li>
+                        <li class="log_tips"><p>※用户名为6~18位字符，包含字母和数字</p></li>
+                        <li><input class="input_text" type="text" /><i>请重新输入密码</i></li>
+                        <li class="log_tips"><p>※用户名为6~18位字符，包含字母和数字</p></li>
+                    </ul>
+                    <p class="clear"><span href="javascript:;" class="checked fl">我已阅读并同意<a href="javascript:;">《保宝网用户注册协议》</a></span></p>
+                    <div class="res_btn"><a href="javascript:;">注  册</a></div>
+                    <div class="log_code">
+                        <i><img src="../img/service_code.jpg"></i>
+                        <span>使用微信扫描二维码注册</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--提问-->
+    <div class="pop_box ques_box">
+        <div class="share_shadow">
+            <div class="pop_hd">
+                <h3>提问基本原则</h3><a href="javascript:;"></a>
+            </div>
+            <div class="pop_bd">
+                <div class="pop_part">
+                    <p class="ques_th">保宝网上提问应遵循<strong>真实、客观、简洁、明确、规范、相关</strong>的原则。</p>
+                    <ul class="ques_list">
+                        <li><strong>真实：</strong><span>自己思考之后的真实疑惑；</span></li>
+                        <li><strong>客观：</strong><span>理性客观地陈述问题和事实，不偏激；</span></li>
+                        <li><strong>简洁：</strong><span>用简洁的文字提炼问题，不赘述；</span></li>
+                        <li><strong>明确：</strong><span>有针对性的提问，不寻求模糊空洞答案；</span></li>
+                        <li><strong>规范：</strong><span>标点符号、词语和句式严谨规范。</span></li>
+                        <li><strong>相关：</strong><span>内容与所处具体行业相关性。</span></li>
+                        <li>&nbsp;</li>
+                        <li><span>为了提高问题质量，帮助您获得更有用的回答，<strong>提问前请先搜索是否存在已有相近问答</strong>，避免重复提问。</span></li>
+                        <li>&nbsp;</li>
+                        <li><span>更多规范详见<a class="orange"  href="javascript:;">《保宝网提问规范》</a></span></li>
+                    </ul>
+                    <ul class="input"><li><input class="input_text" type="text" /><i>请输入你的问题</i><a class="search_btn pngFix" href="javascript:;">提问</a></li></ul>
+                    <ul class="ques_search">
+                        <li><a  href="javascript:;"><strong>你的问题可能已经有答案</strong></a></li>
+                        <li><a  href="javascript:;"><span>保险的作用是什么？前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么？</span><i>4个回答</i></a></li>
+                        <li><a  href="javascript:;"><span>保险的作用是什么？前景是什么前么前景是什么？</span><i>4个回答</i></a></li>
+                        <li><a  href="javascript:;"><span>保险的作用是什么？前景是什么前么前景是什么？</span><i>4个回答</i></a></li>
+                        <li><a  href="javascript:;"><span>保险的作用是什么？前景是什么前么前景是什么？</span><i>4个回答</i></a></li>
+                        <li><a  href="javascript:;"><span>保险的作用是什么？前景是什么前么前景是什么？</span><i>4个回答</i></a></li>
+                        <li class="ques_new"><a href="javascript:;"><span>没有我要的答案，我要提一个新问题>></span></a></li>
+                    </ul>
+                </div>
+                <div class="pop_part2">
+                    <ul class="input"><li><input style="width:98%" class="input_text" type="text" /><i>请输入你的问题</i></li></ul>
+                    <ul class="ques_search">
+                        <li><a  href="javascript:;"><strong>你的问题可能已经有答案</strong></a></li>
+                        <li><a  href="javascript:;"><span>保险的作用是什么？前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么？</span><i>4个回答</i></a></li>
+                        <li><a  href="javascript:;"><span>保险的作用是什么？前景是什么前么前景是什么？</span><i>4个回答</i></a></li>
+                        <li><a  href="javascript:;"><span>保险的作用是什么？前景是什么前么前景是什么？</span><i>4个回答</i></a></li>
+                        <li><a  href="javascript:;"><span>保险的作用是什么？前景是什么前么前景是什么？</span><i>4个回答</i></a></li>
+                        <li><a  href="javascript:;"><span>保险的作用是什么？前景是什么前么前景是什么？</span><i>4个回答</i></a></li>
+                    </ul>
+                    <p class="ques_th">问题说明（可选）：</p>
+                    <div class="answer_box" style="display:block">
+                        <div class="text_style clear"><a class="text_bold" href="javascript:;" title="加粗"></a><a class="text_italic" href="javascript:;" title="斜体"></a><a class="text_underline" href="javascript:;" title="下划线"></a><span></span><a class="text_ol" href="javascript:;" title="有序列表"></a><a class="text_ul" href="javascript:;" title="无序列表"></a><span></span><a class="text_img" href="javascript:;" title="图片"></a><a class="text_link" href="javascript:;" title="链接"></a><span></span><a class="text_clear" href="javascript:;" title="清除样式"></a></div>
+                        <div class="answer_text input">
+                            <textarea class="input_text"></textarea><i>问题背景、条件等详细说明</i>
+                        </div>
+                    </div>
+                    <p class="ques_th clear"><span class="fl">选择标签（必选）：</span><span class="fr">您最多只能添加五个标签</span></p>
+                    <div class="keywords BBAQ_detail_tags clear">
+                        <a class="tags_item tags_change" href="javascript:;"><strong>保险保险保</strong><span class="invite_clear" href="javascript:;"></span></a>
+                        <a class="tags_item tags_change" href="javascript:;"><strong>保险保险保</strong><span class="invite_clear" href="javascript:;"></span></a>
+                        <a class="tags_item tags_change" href="javascript:;"><strong>保险保险保</strong><span class="invite_clear" href="javascript:;"></span></a>
+                        <a class="tags_item tags_change" href="javascript:;"><strong>保险保险保</strong><span class="invite_clear" href="javascript:;"></span></a>
+                        <a class="tags_item tags_change" href="javascript:;"><strong>保险保险保</strong><span class="invite_clear" href="javascript:;"></span></a>
+                    </div>
+                    <div class="tags_search">
+                        <div class="input">
+                            <input class="input_text" type="text" /><i>请输入标签搜索</i>
+                            <ul class="tags_list">
+                                <li class="tags_items"><a class="tags" href="javascript:;">保险人</a></li>
+                                <li class="tags_items"><a class="tags" href="javascript:;">保险人</a></li>
+                                <li class="tags_items"><a class="tags" href="javascript:;">从业资格证</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="pop_sent clear"><a href="javascript:;" class="checked fl">匿名</a><a class="pop_clear" href="javascript:;">取消</a><a class="pop_com pop_true" href="javascript:;">提问</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--客服-->
+    <div class="float_side">
+        <ul>
+            <li>
+                <a  href="javascript:;"><span class="sidebox feed_back" ><img class="pngFix" src="../img/side_icon01.png"><em>反馈信息</em></span>
+                </a>
+            </li>
+            <li>
+                <a  href="javascript:;"><span class="sidebox" ><img class="pngFix" src="../img/side_icon02.png"><em>在线客服</em>在线客服</span></a>
+            </li>
+            <li >
+                <a class="sidetop"  href="javascript:;"><img class="pngFix" src="../img/side_icon03.png"></a>
+            </li>
+        </ul>
+    </div>
+    <!--用户表-->
+    <div class="info_comment_user_cardbox" >
+        <div class="info_comment_user_card_title clear">
+            <a  href="javascript:;" class="db"><img class="db fl" src="../img/user01.gif" /></a>
+            <p class="fr"><a  href="javascript:;" class="db">bb_1234156</a><span class="db">这个人很个人很个人很个人很个人很懒什么都没留下</span></p>
+        </div>
+        <div class="info_comment_user_card_content">
+            <div class="clear">
+                <p class="hover_action br_01"><span>问题</span><br /><span>0</span></p>
+                <p class="hover_action br_01"><span>回答</span><br /><span>0</span></p>
+                <p class="hover_action"><span>粉丝</span><br /><span>0</span></p>
+                <a  href="javascript:;" class="info_btn fr">关注</a>
+            </div>
+            <span class="bottom_tip"></span>
+        </div>
+    </div>
+    <!--评论-->
+    <div class="pop_box alertbox" style="z-index:1010; display: none;">
+        <div class="invite_shadow">
+            <div class="pop_hd">
+                <h3>提示信息</h3>
+                <a href="javascript:;"></a>
+            </div>
+            <div class="pop_bd">
+                <div class="pop_part">
+                    <h3 class="pop_caution" style="margin-bottom: 20px;">请输入内容！</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--分享-->
+    <div class="pop_box share_box">
+        <div class="share_shadow">
+            <div class="pop_hd">
+                <h3>分享到我的主页</h3>
+                <a href="javascript:;"></a>
+            </div>
+            <div class="pop_bd" style="height: auto;">
+                <div class="pop_part" style="display: block;">
+                    <div class="share_text">
+                        <textarea ></textarea>
+                    </div>
+                    <div class="pop_sent">
+                        <span>还可以输入<strong class="share_count">140</strong>字</span>
+                        <a class="pop_clear" href="javascript:;">取消</a>
+                        <a class="pop_com"  href="javascript:;" >发布</a>
+                    </div>
+                    <div class="share_other clear">
+                        <span>分享到: </span>
+                        <div class="bdsharebuttonbox"><a  href="javascript:;" class="bds_more" data-cmd="more"></a><a title="分享到QQ空间"  href="javascript:;" class="bds_qzone" data-cmd="qzone"></a><a title="分享到新浪微博"  href="javascript:;" class="bds_tsina" data-cmd="tsina"></a><a title="分享到腾讯微博"  href="javascript:;" class="bds_tqq" data-cmd="tqq"></a><a title="分享到人人网"  href="javascript:;" class="bds_renren" data-cmd="renren"></a><a title="分享到微信"  href="javascript:;" class="bds_weixin" data-cmd="weixin"></a></div>
+                        <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                    </div>
+                </div>
+                <div class="success_tips" >
+                    <h3>分享成功!</h3>
+                    <br>
+                    <a class="turn_time">3</a>
+                    <span> 秒后页面将自动关闭</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--收藏-->
+    <div class="pop_box col_box" >
+        <div id="invite_shadow" class="invite_shadow">
+            <div class="pop_hd">
+                <h3>添加到收藏夹</h3>
+                <a href="javascript:;"></a>
+            </div>
+            <div class="pop_bd" >
+                <div class="pop_part" >
+                    <h4>
+                        <a class="col_link"  href="javascript:;">管理我的收藏夹</a>
+                    </h4>
+                    <ul class="col_list clear">
+                        <li class="col_item">
+                            <a class="acheck" href="javascript:;">123</a>
+                        </li>
+                        <li class="col_item">
+                            <a class="acheck" href="javascript:;">123321</a>
+                        </li>
+                        <li class="col_item">
+                            <a class="acheck" href="javascript:;">保险卡</a>
+                        </li>
+                        <li class="col_item">
+                            <a class="acheck" href="javascript:;">保险</a>
+                        </li>
+                    </ul>
+                    <h4 >
+                        <a class="col_new" href="javascript:;">
+                            新建收藏夹
+                            <input class="otherpagrcolinput" type="hidden" value="" />
+                        </a>
+                    </h4>
+                    <div class="col_snew clear" style="display: none;">
+                        <ul class="input fl">
+                            <li>
+                                <input class="input_text" type="text" maxlength="10">
+                                <i>请输入新建收藏夹名称</i>
+                            </li>
+                        </ul>
+                        <a class="col_com fl" href="javascript:;">确定</a>
+                        <a class="col_clear fl" href="javascript:;">取消</a>
+                    </div>
+                    <div class="pop_sent">
+                        <span>最多只能新建20个收藏夹</span>
+                        <a class="pop_clear" href="javascript:;">取消</a>
+                        <a class="pop_com" href="javascript:;">确定</a>
+                    </div>
+                </div>
+                <div class="success_tips" style="display: none;">
+                    <h3>收藏成功!</h3>
+                    <br>
+                    <a class="turn_time" >0</a>
+                    <span>秒后页面将自动关闭</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--反馈-->
+    <div class="pop_box feed_back_box">
+        <div class="invite_shadow">
+            <div class="pop_hd">
+                <h3>信息反馈</h3>
+                <a href="javascript:;"></a>
+            </div>
+            <div class="pop_bd">
+                <div class="pop_part">
+                    <table>
+                        <tr class="fb_text">
+                            <th width="80" valign="top">反馈内容：</th>
+                            <td>
+                                <div class="input pr" style="border-color: rgb(223, 223, 223);">
+                                    <textarea class="input_text fd_textarea" placeholder="欢迎提出您在使用保宝网时遇到的问题或宝贵意见，感谢您对保宝网的支持。"></textarea>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="fb_upload">
+                            <th>上传图片：</th>
+                            <td>
+                                <div class="pr">
+                                    <div class="file_name"></div>
+                                    <a class="upload_btn" href="javascript:;" style="padding:0 20px; overflow:hidden">浏览<input type="file" style="position:absolute;cursor:pointer;z-index:10;right:0;top:0;width:300%;height:100%;opacity:0;filter:alpha(opacity=0);"></a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="fb_input">
+                            <th>联系方式：</th>
+                            <td>
+                                <div class="input pr">
+                                    <input class="input_text fb_mail" type="text" placeholder="留下您的邮箱，便于我们及时回复你。">
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <div class="pop_sent">
+                        <span></span>
+                        <a class="pop_clear" href="javascript:;">取消</a>
+                        <a class="pop_com fd_btn" href="javascript:;">提交</a>
+                    </div>
+                </div>
+                <div class="success_tips">
+                    <h3>反馈成功!</h3>
+                    <a class="turn_time">3</a>
+                    <span> 秒后页面将自动关闭</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--举报-->
+    <div class="pop_box report_box">
+        <div class="invite_shadow">
+            <div class="pop_hd">
+                <h3>为什么举报？</h3>
+                <a href="javascript:;"></a>
+            </div>
+            <div class="pop_bd">
+                <div class="pop_part">
+                    <h4 style="color: #333">请选择举报理由（恶意举报的用户，将对其禁言一个月）：</h4>
+                    <ul>
+                        <li class="report_item"><a class="radio" href="javascript:;">反社会言行</a></li>
+                        <li class="report_item"><a class="radio" href="javascript:;">含有辱骂字段</a></li>
+                        <li class="report_item"><a class="radio" href="javascript:;">其他</a></li>
+                        <li class="report_item"><a class="radio" href="javascript:;">包含违法内容</a></li>
+                        <li class="report_item"><a class="radio" href="javascript:;">陈述内容不符合要求</a></li>
+                    </ul>
+                    <h4>请上传相关凭证（必填）</h4>
+                    <div class="video_upload">
+                        <div class="file_name"></div>
+                        <a class="upload_btn" href="javascript:;" >浏览</a>
+                        <input class="reportpars" type="file" />
+                    </div>
+                    <div class="pop_sent">
+                        <a class="pop_clear" href="javascript:;">取消</a>
+                        <a class="pop_com" href="javascript:;">确定</a>
+                    </div>
+                </div>
+                <div class="success_tips">
+                    <span>您好，您的举报已经申请成功，审核通过后会发出系统通知！</span>
+                    <br>
+                    <a class="turn_time" >3</a>
+                    <span>秒后页面将自动关闭</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

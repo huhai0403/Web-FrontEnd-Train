@@ -1,0 +1,456 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"  name="viewport" content="width=device-width,user-scalable=no,initial-scale=1, orientation=no">
+<title>首页</title>
+<link rel="stylesheet" href="../font/iconfont.css" />
+<link href="../css/main.css" rel="stylesheet">
+<script src="../js/jquery.js"></script>
+<script src="../js/jquery.SuperSlide.2.1.1.js"></script>
+<script src="../js/main.js"></script>
+</head>
+<body>
+<div class="header">
+	<div class="top layoutMid clear">
+	<h1 class="logo fl"><a class="pngFix" href="javascript:;"></a></h1>
+    <a class="toggle_nav" href="javascript:;"></a>
+    <ul class="main_nav fl clear">
+    	<li><a href="javascript:;">首页</a></li>
+        <li><a href="javascript:;">学习</a></li>
+        <li><a class="current" href="javascript:;">资讯</a></li>
+        <li><a href="javascript:;">问答</a></li>
+    </ul>
+		<div class="user fr">
+			<div class="clear">
+				<div class="user_head fl" >
+					<img src="../img/user_head.jpg">
+					<i class="notice_num pngFix" >1</i>
+					<ul class="sub_menu clear">
+						<li class="icoTop"><span></span></li>
+						<li><a href="javascript:;">我的主页</a></li>
+						<li><a href="javascript:;">消息(1)</a></li>
+						<li><a href="javascript:;">设置</a></li>
+						<li><a class="log_out" href="javascript:;">退出</a></li>
+					</ul>
+				</div>
+				<span class="user_name fl" title="BB_67209703">BB_67209703</span>
+			</div>
+		</div>
+	<div class="log_res fr">
+    	<a href="javascript:;">登录/注册</a>
+    </div>
+    <div class="queation fr ques_btn"><a href="javascript:;">提问</a></div>
+    <div class="search pr fr clear">
+		<ul class="input">
+			<li style="border-color: rgb(223, 223, 223);">
+				<input id="searchinput" class="input_text" type="text" name="searchinput" maxlength="50" autocomplete="off">
+				<i>请输入关键字</i>
+				<a class="search_btn pngFix" style="line-height: 36px"  href="javascript:;">搜索</a>
+			</li>
+		</ul>
+        <div class="search_box">
+            <dl>
+                <dt>课程</dt>
+                <dd><a href="javascript:;"><em>《<span class="orange">保险</span>业发展与前景》</em><i>赞(28)</i><i>课程时长：128分钟</i></a></dd>
+                <dd><a href="javascript:;"><em>《<span class="orange">保险</span>业发展与前景》</em><i>赞(28)</i><i>课程时长：128分钟</i></a></dd>
+                <dd><a href="javascript:;"><em>《<span class="orange">保险</span>业发展与前景》</em><i>赞(28)</i><i>课程时长：128分钟</i></a></dd>
+                <dt>问答</dt>
+                <dd><a href="javascript:;"><em><span class="orange">保险</span>的作用是什么？前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么？</em><i>4个回答</i></a></dd>
+                <dd><a href="javascript:;"><em><span class="orange">保险</span>的作用是什么？前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么？</em><i>4个回答</i></a></dd>
+                <dd><a href="javascript:;"><em><span class="orange">保险</span>的作用是什么？前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么？</em><i>4个回答</i></a></dd>
+                <dt>资讯</dt>
+                <dd><a href="javascript:;"><em><span class="orange">保险</span>业发展与前景发展与前景发展与前景发展与前景发展与前景发展与前前景发展与前景发展与前前景发展与前景发展与前景发</em><i>赞(28)</i><i>评论(28)</i></a></dd>
+                <dd><a href="javascript:;"><em><span class="orange">保险</span>业发展与前景发展与前景发展与前景发展与前景发展与前景发展与前景发</em><i>赞(28)</i><i>评论(28)</i></a></dd>
+                <dd><a href="javascript:;"><em><span class="orange">保险</span>业发展与前景发展与前景发展与前景发展与前景发展与前景发展与前景发</em><i>赞(28)</i><i>评论(28)</i></a></dd>
+                <dt>用户</dt>
+                <dd class="search_user"><a class="clear" href="javascript:;"><img src="../img/zone_pic02.jpg"><em><span class="orange">保险</span>人</em><br><i>梦由心动，跟我走吧，开心不由你！</i></a></dd>
+                <dd class="search_user"><a class="clear" href="javascript:;"><img src="../img/zone_pic02.jpg"><em><span class="orange">保险</span>人</em><br><i>梦由心动，跟我走吧，开心不由你！</i></a></dd>
+                <dd class="search_user"><a class="clear" href="javascript:;"><img src="../img/zone_pic02.jpg"><em><span class="orange">保险</span>人</em><br><i>梦由心动，跟我走吧，开心不由你！</i></a></dd>
+            </dl>
+            <p><a href="javascript:;">查看全部搜索结果</a></p>
+        </div>
+    </div> 
+</div>
+
+</div>
+<div class="banner">
+	<ul class="banner_wrap">
+		<li class="animate-out">
+			<div class="message_slide5">
+				<h3 class="in-from-top slow">微信客服，助力便捷服务</h3>
+				<p class="in-from-top fast">手机扫一扫，关注保宝网官方微信账号，在线客服，实时沟通，解除困扰!</p>
+				<div class="fast_list clear">
+					<a class="d1 fade-up" href="#"><span><i></i><img src="../img/fast_link01.png"></span><strong>查询学习记录</strong></a>
+					<a class="d2 fade-up" href="#"><span><i></i><img src="../img/fast_link07.png"></span><strong>培训报名</strong></a>
+					<a class="d3 fade-up" href="#"><span><i></i><img src="../img/fast_link05.png"></span><strong>申请发票</strong></a>
+					<a class="d4 fade-up" href="#"><span><i></i><img src="../img/fast_link04.png"></span><strong>打印培训证书</strong></a>
+					<a class="d5 fade-up" href="#"><span><i></i><img src="../img/fast_link02.png"></span><strong>查询订单</strong></a>
+					<a class="d6 fade-up" href="#"><span><i></i><img src="../img/fast_link03.png"></span><strong>常见问题</strong></a>
+				</div>
+			</div>
+			<div class="slide_img5">
+				<div class="single_image slow in-from-right"><img src="../img/slide_img051.png"></div>
+			</div>
+		</li>
+		<li class="animate-out">
+			<div class="message_slide1">	
+				<h3 class="in-from-left fast">岗前培训，勇敢地跨出第一步</h3>
+				<p class="in-from-left fast delay1">案例教学、知识点睛，快速掌握行规与专业技能在保宝网，<br>职业生涯完美开局！</p>
+				<a class="btn in-from-left slow delay1" href="#">现在开始  <span class="load"> >> </span></a> 
+			</div>
+			<div class="slide_img1">
+				<div class="single_image fast in-from-bottom"><img src="../img/slide_img011.png"></div>
+				<div class="single_image fast delay1 in-from-right"><img src="../img/slide_img012.png"></div>
+			</div>
+		</li>
+		<!--<li class="animate-out">
+			<div class="message_slide3">
+				<h3 class="in-from-top fast">资格考试，成为认证保险人</h3>
+				<p class="in-from-left fast delay1">保险销售业务资格认证 Get√，一步踏进保险圈子<br>在保宝网，保险事业轻松起航！</p>
+				<a class="btn in-from-left slow delay1" href="#">现在报名  <span class="load"> >> </span></a> 
+			</div>
+			<div class="slide_img3">
+				<div class="single_image fast in-from-bottom"><img src="img/slide_img031.png"></div>
+				<div class="single_image fast delay1 in-from-top"><img src="img/slide_img032.png"></div>
+			</div>
+		</li>-->
+		<li class="animate-out">
+			<div class="message_slide2">
+				<h3 class="in-from-top fast">继续教育,为职业生涯奋斗</h3>
+				<p class="in-from-right fast delay1">专注行业继续教育，全部1000学时培训课程覆盖各类知识，<br>100家企业合作客户+400万学员的共同选择！</p>
+				<a class="btn in-from-right slow delay1" href="#">立即学习  <span class="load"> >> </span></a> 
+			</div>
+			<div class="slide_img2"> 
+				<div class="single_image fast in-from-bottom"><img src="../img/slide_img021.png"></div>
+				<div class="single_image delay1 fast in-from-top"><img src="../img/slide_img022.png"></div>
+				<div class="single_image delay2 fast in-from-top"><img src="../img/slide_img023.png"></div>
+			</div>
+		</li>
+		<li class="animate-out">
+			<div class="message_slide6">
+				<h3 class="in-from-top fast">高管培训，从优秀到卓越</h3>
+				<p class="in-from-right fast delay1">保监会合作机构，3万学员共同见证，通过率领跑全国</p>
+				<a class="btn d1 fade-up" href="#">立即了解  <span class="load"> >> </span></a> 
+			</div>
+			<div class="slide_img6">
+				<div class="single_image delay1 fast in-from-left"><img src="../img/slide_img062.png"></div>
+				<div class="single_image slow  in-from-top"><img src="../img/slide_img061.png"></div>
+			</div>
+		</li>
+		<li class="animate-out">
+			<div class="message_slide4">
+				<h3 class="in-from-top slow">学历教育,为梦想助力</h3>
+				<p class="in-from-top fast">全网络学习，国家承认学历，教育部学历电子注册，<br>学籍档案成绩证明一应俱全，已帮助3500人完成梦想！</p>
+				<a class="edu-img in-from-right slow" href="http://www.scut.edu.cn/">
+					<img sc="resource" resource.att="src" src="../img/scholl01.png">
+					<br/>
+					<span>华南理工大学</span>
+				</a>
+				<a class="btn d3 fade-up slow" href="attainmentedu">立即报名  <span class="load"> >> </span></a>
+			</div>
+			<div class="slide_img4">
+				<div class="single_image slow in-from-left"><img sc="resource" resource.att="src" src="../img/slide_img041.png"></div>
+			</div>
+		</li>
+	</ul>
+	<ul class="banner_tip clear">
+		<li class="banner_tip_on"></li><li></li><li></li><li></li><li></li>
+	</ul>
+	<a class="prev" href="javascript:void(0)"></a>
+	<a class="next" href="javascript:void(0)"></a>
+</div>
+<div class="container zone layoutMid clear">
+	<div class="sidebar fr">
+		<h2 class="ptb-10 fs-18 c-333 has-subline">快速通道</h2>
+		<div class="row wid-100 mt-10">
+			<div class="col_cell col-50">
+				<a href="#" class="t-c block ptb-10 m-5 conner-10 bg-f3">
+					<img src="../img/ion1.png">
+					<span class="fs-14 c-666 block mt-5">培训报名</span>
+				</a>
+			</div>
+			<div class="col_cell col-50">
+				<a href="#" class="t-c block ptb-10 m-5 conner-10 bg-f3">
+					<img src="../img/ion2.png">
+					<span class="fs-14 c-666 block mt-5">查询学习记录</span>
+				</a>
+			</div>
+		</div>
+		<div class="row wid-100">
+			<div class="col_cell col-50">
+				<a href="#" class="t-c block ptb-10 m-5 conner-10 bg-f3">
+					<img src="../img/ion3.png">
+					<span class="fs-14 c-666 block mt-5">申请发票</span>
+				</a>
+			</div>
+			<div class="col_cell col-50">
+				<a href="#" class="t-c block ptb-10 m-5 conner-10 bg-f3">
+					<img src="../img/ion4.png">
+					<span class="fs-14 c-666 block mt-5">打印培训证书</span>
+				</a>
+			</div>
+		</div>
+		<div class="row wid-100">
+			<div class="col_cell col-50">
+				<a href="#" class="t-c block ptb-10 m-5 conner-10 bg-f3">
+					<img src="../img/ion5.png">
+					<span class="fs-14 c-666 block mt-5">常见问题</span>
+				</a>
+			</div>
+			<div class="col_cell col-50">
+				<a href="#" class="t-c block ptb-10 m-5 conner-10 bg-f3">
+					<img src="../img/ion6.png">
+					<span class="fs-14 c-666 block mt-5">下载保宝工具</span>
+				</a>
+			</div>
+		</div>
+		<div class="dot-box wid-70 ml-5 mt-30">
+			<h2 class="ptb-10 fs-14 c-333 has-subline idt-1">微信服务号</h2>
+			<div class="t-c">
+				<img src="../img/wechat.png">
+			</div>
+			<p class="fs-14 c-333 t-c pb-20">扫一扫，微信客服来帮忙！</p>
+		</div>
+		<div class="dot-box wid-70 ml-5 mt-10">
+			<h2 class="ptb-10 fs-14 c-333 has-subline idt-1">微信订阅号</h2>
+			<div class="t-c">
+				<img src="../img/wechat.png">
+			</div>
+			<p class="fs-14 c-333 t-c pb-20">扫一扫，最新资讯早知道！</p>
+		</div>
+	</div>
+	<div class="content fl">
+		<ul class="mt-10">
+			<li class="bar-item has-subline">
+				<h2 class="fs-16 c-333 f-b"><b class="txt-tag bg-o">资讯</b><a class="c-333 txt-link" href="#">永兴元推出深圳车险理赔员职业鉴定培训课程</a></h2>
+				<p class="fs-14 c-666 lh-24 mt-10 txt-indent wb_ba">近日，深圳市人力资源和社会保障局正式启动“保险理赔员”工种的职业鉴定考试，为解决保险职业技术人才匮乏、车险理赔员的职业认证标准缺失问题做出了有益的探索。永兴元科技作为推动和参与者，见证了此项目的立项与开发历程。为配合鉴定考试的顺利开展，日前推出了相应的职业鉴定培训课程...<a class="c-000 detaile-look" href="#">查看详情</a></p>
+				<div class="mt-10">
+					<!-- <span class="mr-10 fs-14 c-999">13分钟前</span> -->
+					<span class="mr-10 fs-14 c-999"><i class="icon-com zan mr-3"></i>赞（<b>15</b>）</span>
+					<span class="mr-10 fs-14 c-999"><i class="icon-com comment mr-3"></i>评论(<b>5</b>)</span>
+					<!-- <span class="mr-10 fs-14 c-999"><i class="icon iconfont fs-20 mr-3 c-999">&#xe7d4;</i>分享</span>
+					<span class="mr-10 fs-14 c-999"><i class="icon iconfont fs-18 mr-3 c-999">&#xe6b4;</i>收藏</span> -->
+				</div>
+			</li>
+			<li class="bar-item has-subline">
+				<h2 class="fs-16 c-333 f-b"><b class="txt-tag bg-g">课程</b><a class="c-333 txt-link" href="#">永兴元推出深圳车险理赔员职业鉴定培训课程</a></h2>
+				<div class="pl-180 clear">
+					<div class="img-wrap"><img src="../img/img001.jpg"></div>
+					<div class="mtb-10">
+						<i class="txt-tag bg-gray">心理</i>
+						<i class="txt-tag bg-gray">合规销售</i>
+					</div>
+					<p class="fs-14 c-666 lh-24 mt-10 txt-indent wb_ba">让想学习平面广告设计的同学，掌握正确的学习方法和技巧让想学习平面广告设计的同学，掌握正确的学习方法和技巧...<a class="c-000 detaile-look" href="#">查看详情</a></p>
+					<div class="mt-10">
+						<span class="mr-10 fs-14 c-g">100.00保币</span>
+						<span class="mr-10 fs-14 c-999"><i class="icon-com zan mr-3"></i>赞（<b>15</b>）</span>
+						<span class="mr-10 fs-14 c-999"><i class="icon-com comment mr-3"></i>评论(<b>5</b>)</span>
+					</div>
+				</div>
+			</li>
+			<li class="bar-item has-subline">
+				<h2 class="fs-16 c-333 f-b"><b class="txt-tag bg-b">问答</b><a class="c-333 txt-link" href="#">保险的作用是什么？</a></h2>
+				<p class="fs-14 c-999 mt-5"><span class="c-666">李云</span>，梦由心动，跟我走吧，开不开心由你！</p>
+				<p class="fs-14 c-666 lh-24 mt-10 txt-indent wb_ba">想知道保险有多少种?好处有哪些?上大家保保险网,保险问题实时解答,在线比价.免费提供三份保险方案,汇集74家保险公司,6000多款保险产品,让你省钱又省心...<a class="c-000 detaile-look" href="#">查看详情</a></p>
+				<div class="mt-10">
+					<span class="mr-10 fs-14 c-999"><i class="icon-com zan mr-3"></i>赞（<b>15</b>）</span>
+					<span class="mr-10 fs-14 c-999"><i class="icon-com comment mr-3"></i>评论(<b>5</b>)</span>
+				</div>
+			</li>
+			<li class="bar-item has-subline">
+				<h2 class="fs-16 c-333 f-b"><b class="txt-tag bg-o">资讯</b><a class="c-333 txt-link" href="#">永兴元推出深圳车险理赔员职业鉴定培训课程</a></h2>
+				<div class="pl-180 clear">
+					<div class="img-wrap"><img src="../img/img001.jpg"></div>
+					<p class="fs-14 c-666 lh-24 mt-10 txt-indent wb_ba">近日，深圳市人力资源和社会保障局正式启动“保险理赔员”工种的职业鉴定考试，为解决保险职业技术人才匮乏、车险理赔员的职业认证标准缺失问题做出了有益的探索。永兴元科技作为推动和参与者，见证了此项目的立项与开发历程。为配合鉴定考试的顺利开展，日前推出了相应的职业鉴定培训课程...<a class="c-000 detaile-look" href="#">查看详情</a></p>
+				</div>
+				<div class="mt-10">
+					<span class="mr-10 fs-14 c-999"><i class="icon-com zan mr-3"></i>赞（<b>15</b>）</span>
+					<span class="mr-10 fs-14 c-999"><i class="icon-com comment mr-3"></i>评论(<b>5</b>)</span>
+				</div>
+			</li>
+			<li class="bar-item has-subline">
+				<h2 class="fs-16 c-333 f-b"><b class="txt-tag bg-b">问答</b><a class="c-333 txt-link" href="#">保险的作用是什么？</a></h2>
+				<p class="fs-14 c-999 mt-5"><span class="c-666">李云</span>，梦由心动，跟我走吧，开不开心由你！</p>
+				<p class="fs-14 c-666 lh-24 mt-10 txt-indent wb_ba">想知道保险有多少种?好处有哪些?上大家保保险网,保险问题实时解答,在线比价.免费提供三份保险方案,汇集74家保险公司,6000多款保险产品,让你省钱又省心...<a class="c-000 detaile-look" href="#">查看详情</a></p>
+				<div class="mt-10">
+					<span class="mr-10 fs-14 c-999"><i class="icon-com zan mr-3"></i>赞（<b>15</b>）</span>
+					<span class="mr-10 fs-14 c-999"><i class="icon-com comment mr-3"></i>评论(<b>5</b>)</span>
+				</div>
+			</li>
+		</ul>
+		<!-- <div class="mtb-10">
+			<a href="javascript:;" class="button button-block button-orange see-more"><i class="icon iconfont mt-m3 mr-10">&#xe777;</i>查看更多</a>
+		</div> -->
+	</div>
+</div>
+<div class="footer">
+	<div class="copy_right layoutMid clear">
+    	<div class="side">
+        	<dl>
+            	<dt>保宝网</dt>
+                <dd><a href="#">关于保宝网</a></dd>
+                <dd><a href="#">保险导航</a></dd>
+                <dd><a href="#">注册协议</a></dd>
+                <dd><a href="#">网站声明</a></dd>
+                <dd><a href="#">帮助中心</a></dd>
+            </dl>
+        </div>
+    	<div class="container clear">
+        	<dl>
+            	<dt>合作单位</dt>
+                <dd><a href="#">华南理工大学网络教育平台</a></dd>
+                <dd><a href="#">武汉大学网络教育平台</a></dd>
+                <dd><a href="#">北京语言大学网络教育平台</a></dd>
+            </dl>
+            <dl>
+            	<dt>专用通道</dt>
+                <dd><a href="#">保险行业协会</a></dd>
+				<dd><a href="#">教育培训信息平台</a></dd>
+				<dd><a href="#">保险信息服务平台</a></dd>
+            </dl>
+        </div>
+        <div class="sidebar">
+        	<h2><img src="../img/footer_logo.gif"></h2>
+            <ul>
+            	<li>© 1998-2014 保宝网</li>
+                <li>All Rights Reserved</li>
+                <li>粤ICP备09098678号-7</li>
+                <li>增值电信业务经营许可证：粤B2-20040624</li>
+            </ul>
+			<p class="copyright_link clear">
+				<i class="CRlink01">深圳网络警<br>察报警平台</i>
+				<i class="CRlink02">公共信息安<br>全网络监察</i>
+				<i class="CRlink03">工商网监<br>电子标识</i>
+			</p>
+        </div>
+    </div>	
+</div>
+<div class="share_bg dn"></div>
+<div class="log_box">
+	<div class="log_box_shadow">
+    	<div class="log_hd clear">
+        	<a class="log_tab log fl log_current" href="javascript:;">登录</a>
+            <a class="log_tab res fr" href="javascript:;">注册</a>
+            <a class="log_close pngFix" href="javascript:;"></a>
+        </div>
+        <div class="log_bd clear">
+        	<div class="log_part fl" style="display:block">
+        		<ul class="input">
+            		<li><input class="input_text" type="text" /><i>请输入用户名</i></li>
+                	<li><input class="input_text" type="password" /><i>请输入密码</i></li>
+                	<li><input class="input_text" type="text" /><i>请输入验证码</i><img class="code" src="../img/code.jpg"></li>
+            	</ul>
+            	<p class="clear"><a href="javascript:;" class="checked fl">记住密码</a><a href="javascript:;" class="fr">忘记密码？</a></p>
+            	<div class="log_btn"><a href="javascript:;">登  录</a></div>
+				<div class="log_code">	
+					<i><img src="../img/service_code.jpg"></i>
+					<span>使用微信扫描二维码登录</span>
+				</div>
+        	</div>
+        	<div class="log_part fl">
+            	<ul class="input">
+            		<li>
+						<input class="input_text" type="text" />
+						<i>请输入用户名</i>
+						<img class="TOF yes" src="../img/yes.gif" style="display: none;">
+						<img class="TOF no" src="../img/no.gif"  style="display: none;">
+					</li>
+                    <li class="log_tips"><p>※用户名为6~18位字符，包含字母和数字</p></li>
+                	<li>
+						<input class="input_text" type="password" />
+						<i>请输入密码</i>
+						<img class="TOF yes" src="../img/yes.gif" style="display: none;">
+						<img class="TOF no" src="../img/no.gif"  style="display: none;">
+					</li>
+                    <li class="log_tips"><p>※用户名为6~18位字符，包含字母和数字</p></li>
+                	<li>
+						<input class="input_text" type="text" />
+						<i>请重新输入密码</i>
+						<img class="TOF yes" src="../img/yes.gif" style="display: none;">
+						<img class="TOF no" src="../img/no.gif"  style="display: none;">
+					</li>
+                    <li class="log_tips"><p>※用户名为6~18位字符，包含字母和数字</p></li>
+            	</ul>
+            	<p class="clear"><span href="javascript:;" class="checked fl">我已阅读并同意<a href="javascript:;">《保宝网用户注册协议》</a></span></p>
+            	<div class="res_btn"><a href="javascript:;">注  册</a></div>
+				<div class="log_code">	
+					<i><img src="../img/service_code.jpg"></i>
+					<span>使用微信扫描二维码注册</span>
+				</div>
+            </div>
+        </div>     
+    </div>
+</div>
+<div class="pop_box ques_box">
+	<div class="share_shadow">
+    	<div class="pop_hd">
+    	<h3>提问基本原则</h3><a href="javascript:;"></a>
+    </div>
+    <div class="pop_bd">
+        <div class="pop_part">
+        	<p class="ques_th">保宝网上提问应遵循<strong>真实、客观、简洁、明确、规范、相关</strong>的原则。</p>
+            <ul class="ques_list">
+            	<li><strong>真实：</strong><span>自己思考之后的真实疑惑；</span></li>
+                <li><strong>客观：</strong><span>理性客观地陈述问题和事实，不偏激；</span></li>
+                <li><strong>简洁：</strong><span>用简洁的文字提炼问题，不赘述；</span></li>
+                <li><strong>明确：</strong><span>有针对性的提问，不寻求模糊空洞答案；</span></li>
+                <li><strong>规范：</strong><span>标点符号、词语和句式严谨规范。</span></li>
+                <li><strong>相关：</strong><span>内容与所处具体行业相关性。</span></li>
+                <li>&nbsp;</li>
+                <li><span>为了提高问题质量，帮助您获得更有用的回答，<strong>提问前请先搜索是否存在已有相近问答</strong>，避免重复提问。</span></li>
+                <li>&nbsp;</li>
+                <li><span>更多规范详见<a class="orange" href="#">《保宝网提问规范》</a></span></li>
+            </ul>
+            <ul class="input"><li><input class="input_text" type="text" /><i>请输入你的问题</i><a class="search_btn pngFix" href="javascript:;">提问</a></li></ul>
+            <ul class="ques_search">
+            	<li><a href="#"><strong>你的问题可能已经有答案</strong></a></li>
+            	<li><a href="#"><span>保险的作用是什么？前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么？</span><i>4个回答</i></a></li>
+                <li><a href="#"><span>保险的作用是什么？前景是什么前么前景是什么？</span><i>4个回答</i></a></li>
+                <li><a href="#"><span>保险的作用是什么？前景是什么前么前景是什么？</span><i>4个回答</i></a></li>
+                <li><a href="#"><span>保险的作用是什么？前景是什么前么前景是什么？</span><i>4个回答</i></a></li>
+                <li><a href="#"><span>保险的作用是什么？前景是什么前么前景是什么？</span><i>4个回答</i></a></li>
+                <li class="ques_new"><a href="javascript:;"><span>没有我要的答案，我要提一个新问题>></span></a></li>
+            </ul>
+        </div>
+        <div class="pop_part2">
+        	<ul class="input"><li><input style="width:98%" class="input_text" type="text" /><i>请输入你的问题</i></li></ul>
+            <ul class="ques_search">
+            	<li><a href="#"><strong>你的问题可能已经有答案</strong></a></li>
+            	<li><a href="#"><span>保险的作用是什么？前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么？</span><i>4个回答</i></a></li>
+                <li><a href="#"><span>保险的作用是什么？前景是什么前么前景是什么？</span><i>4个回答</i></a></li>
+                <li><a href="#"><span>保险的作用是什么？前景是什么前么前景是什么？</span><i>4个回答</i></a></li>
+                <li><a href="#"><span>保险的作用是什么？前景是什么前么前景是什么？</span><i>4个回答</i></a></li>
+                <li><a href="#"><span>保险的作用是什么？前景是什么前么前景是什么？</span><i>4个回答</i></a></li>
+            </ul>
+            <p class="ques_th">问题说明（可选）：</p>
+            <div class="answer_box" style="display:block">
+            	<div class="text_style clear"><a class="text_bold" href="javascript:;" title="加粗"></a><a class="text_italic" href="javascript:;" title="斜体"></a><a class="text_underline" href="javascript:;" title="下划线"></a><span></span><a class="text_ol" href="javascript:;" title="有序列表"></a><a class="text_ul" href="javascript:;" title="无序列表"></a><span></span><a class="text_img" href="javascript:;" title="图片"></a><a class="text_link" href="javascript:;" title="链接"></a><span></span><a class="text_clear" href="javascript:;" title="清除样式"></a></div>
+                <div class="answer_text input">
+                	<textarea class="input_text"></textarea><i>问题背景、条件等详细说明</i>                   
+                </div>
+            </div>
+            <p class="ques_th clear"><span class="fl">选择标签（必选）：</span><span class="fr">您最多只能添加五个标签</span></p>
+            <div class="keywords BBAQ_detail_tags clear  pb-5">
+            	<a class="tags_item tags_change" href="javascript:;"><strong>保险保险保</strong><span class="invite_clear" href="javascript:;"></span></a>
+                <a class="tags_item tags_change" href="javascript:;"><strong>保险保险保</strong><span class="invite_clear" href="javascript:;"></span></a>
+                <a class="tags_item tags_change" href="javascript:;"><strong>保险保险保</strong><span class="invite_clear" href="javascript:;"></span></a>
+                <a class="tags_item tags_change" href="javascript:;"><strong>保险保险保</strong><span class="invite_clear" href="javascript:;"></span></a>
+                <a class="tags_item tags_change" href="javascript:;"><strong>保险保险保</strong><span class="invite_clear" href="javascript:;"></span></a>
+            </div>
+            <div class="tags_search">
+            		<div class="input">
+                    	<input class="input_text" type="text" /><i>请输入标签搜索</i>
+                        <ul class="tags_list">
+                        	<li class="tags_items"><a class="tags" href="javascript:;">保险人</a></li>
+                            <li class="tags_items"><a class="tags" href="javascript:;">保险人</a></li>
+                            <li class="tags_items"><a class="tags" href="javascript:;">从业资格证</a></li>
+                        </ul>
+                    </div>
+                </div>
+            <div class="pop_sent clear"><a href="javascript:;" class="checked fl">匿名</a><a class="pop_clear" href="javascript:;">取消</a><a class="pop_com pop_true" href="javascript:;">提问</a></div>
+        </div>
+    </div>
+    </div>
+</div>
+</body>
+</html>

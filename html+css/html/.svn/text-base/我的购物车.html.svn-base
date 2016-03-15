@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>我的购物车</title>
+    <link rel="stylesheet" href="../font/iconfont.css" />
+    <link href="../css/main.css" rel="stylesheet">
+    <script src="../js/jquery.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/module/shopcar.js"></script>
+</head>
+<body>
+<div class="header">
+    <div class="top layoutMid clear">
+        <h1 class="logo fl"><a class="pngFix" href="javascript:;"></a></h1>
+        <a class="toggle_nav" href="javascript:;"></a>
+        <ul class="main_nav fl clear">
+            <li><a href="javascript:;">首页</a></li>
+            <li><a href="javascript:;">学习</a></li>
+            <li><a class="current" href="javascript:;">资讯</a></li>
+            <li><a href="javascript:;">问答</a></li>
+        </ul>
+        <div class="user fr">
+            <a class="clear" href="javascript:;"><span class="user_head fl"><img src="../img/user_head.jpg"><i class="notice_num pngFix">1</i></span><span class="user_name fl">maxiaoning</span></a>
+            <ul class="sub_menu clear">
+                <li class="icoTop"><span></span></li>
+                <li><a href="javascript:;">我的主页</a></li>
+                <li><a href="javascript:;">消息(1)</a></li>
+                <li><a href="javascript:;">设置</a></li>
+                <li><a class="log_out" href="javascript:;">退出</a></li>
+            </ul>
+        </div>
+        <div class="log_res fr">
+            <a href="javascript:;">登录/注册</a>
+        </div>
+        <div class="queation fr"><a href="javascript:;">提问</a></div>
+        <div class="search pr fr clear">
+            <input type="text" class="fl" />
+            <a class="search_btn pngFix" href="javascript:;">搜索</a>
+            <div class="search_box">
+                <dl>
+                    <dt>课程</dt>
+                    <dd><a href="javascript:;"><em>《<span class="orange">保险</span>业发展与前景》</em><i>赞(28)</i><i>课程时长：128分钟</i></a></dd>
+                    <dd><a href="javascript:;"><em>《<span class="orange">保险</span>业发展与前景》</em><i>赞(28)</i><i>课程时长：128分钟</i></a></dd>
+                    <dd><a href="javascript:;"><em>《<span class="orange">保险</span>业发展与前景》</em><i>赞(28)</i><i>课程时长：128分钟</i></a></dd>
+                    <dt>问答</dt>
+                    <dd><a href="javascript:;"><em><span class="orange">保险</span>的作用是什么？前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么？</em><i>4个回答</i></a></dd>
+                    <dd><a href="javascript:;"><em><span class="orange">保险</span>的作用是什么？前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么？</em><i>4个回答</i></a></dd>
+                    <dd><a href="javascript:;"><em><span class="orange">保险</span>的作用是什么？前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么？</em><i>4个回答</i></a></dd>
+                    <dt>资讯</dt>
+                    <dd><a href="javascript:;"><em><span class="orange">保险</span>业发展与前景发展与前景发展与前景发展与前景发展与前景发展与前前景发展与前景发展与前前景发展与前景发展与前景发</em><i>赞(28)</i><i>评论(28)</i></a></dd>
+                    <dd><a href="javascript:;"><em><span class="orange">保险</span>业发展与前景发展与前景发展与前景发展与前景发展与前景发展与前景发</em><i>赞(28)</i><i>评论(28)</i></a></dd>
+                    <dd><a href="javascript:;"><em><span class="orange">保险</span>业发展与前景发展与前景发展与前景发展与前景发展与前景发展与前景发</em><i>赞(28)</i><i>评论(28)</i></a></dd>
+                    <dt>用户</dt>
+                    <dd class="search_user"><a class="clear" href="javascript:;"><img src="../img/zone_pic02.jpg"><em><span class="orange">保险</span>人</em><br><i>梦由心动，跟我走吧，开心不由你！</i></a></dd>
+                    <dd class="search_user"><a class="clear" href="javascript:;"><img src="../img/zone_pic02.jpg"><em><span class="orange">保险</span>人</em><br><i>梦由心动，跟我走吧，开心不由你！</i></a></dd>
+                    <dd class="search_user"><a class="clear" href="javascript:;"><img src="../img/zone_pic02.jpg"><em><span class="orange">保险</span>人</em><br><i>梦由心动，跟我走吧，开心不由你！</i></a></dd>
+                </dl>
+                <p><a href="javascript:;">查看全部搜索结果</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="main layoutMid clear">
+    <div class="content  fl">
+        <p class="class_title clear">我的购物车</p>
+        <div class="per_shop">
+            <h3>购物清单(<span>10</span>)</h3>
+            <table class="per_shop_top">
+                <tr>
+                    <th width="380">课程信息</th>
+                    <th width="140">价格</th>
+                    <th width="60">数量</th>
+                    <th width="145">优惠</th>
+                    <th>操作</th>
+                </tr>
+            </table>
+            <div class="per_shop_check bor_solid">
+                <div class="per_info_check fl clear">
+                    <div class="fl allcheck">
+                        <input type="checkbox" class="allcheck_btn"/>
+                        <span>全选</span>
+                    </div>
+                    <i class="per_info_delete shop_top_delete fl">删除</i>
+                </div>
+            </div>
+            <table class="order_item">
+                <tr class="bor_solid">
+                    <th width="40"><input type="checkbox"></th>
+                    <th width="120">
+                        <a class="order_info_img" >
+                            <img class="list_pic"  src="../img/img001.jpg" >
+                        </a>
+                    </th>
+                    <th width="210" valign="top">
+                        <h3 class="list_title per_order_item_title">
+                            <a href="#">如何挖掘自己的销售潜能</a>
+                        </h3>
+                    </th>
+                    <td width="140"><span class="list_price_add">现价：<strong class="orange">0.01</strong>元</span></td>
+                    <td width="90"><span>1</span></td>
+                    <td width="115"><span>--</span></td>
+                    <td >
+                        <div class="shop_item_action">
+                            <a class="shop_del" href="javascript:;">删除</a>
+                            <span>|</span>
+                            <a class="shop_col" href="javascript:;">加入收藏夹</a>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="bor_solid">
+                    <th width="40"><input type="checkbox"></th>
+                    <th width="120">
+                        <a class="order_info_img" >
+                            <img class="list_pic"  src="../img/img001.jpg" >
+                        </a>
+                    </th>
+                    <th width="210" valign="top">
+                        <h3 class="list_title per_order_item_title">
+                            <a href="#">如何挖掘自己的销售潜能</a>
+                        </h3>
+                    </th>
+                    <td width="140"><span class="list_price_add">现价：<strong class="orange">0.01</strong>元</span></td>
+                    <td width="90"><span>1</span></td>
+                    <td width="115"><span>--</span></td>
+                    <td >
+                        <div class="shop_item_action">
+                            <a class="shop_del" href="javascript:;">删除</a>
+                            <span>|</span>
+                            <a class="shop_col" href="javascript:;">加入收藏夹</a>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="bor_solid">
+                    <th width="40"><input type="checkbox"></th>
+                    <th width="120">
+                        <a class="order_info_img" >
+                            <img class="list_pic"  src="../img/img001.jpg" >
+                        </a>
+                    </th>
+                    <th width="210" valign="top">
+                        <h3 class="list_title per_order_item_title">
+                            <a href="#">如何挖掘自己的销售潜能</a>
+                        </h3>
+                    </th>
+                    <td width="140"><span class="list_price_add">现价：<strong class="orange">0.01</strong>元</span></td>
+                    <td width="90"><span>1</span></td>
+                    <td width="115"><span>--</span></td>
+                    <td >
+                        <div class="shop_item_action">
+                            <a class="shop_del" href="javascript:;">删除</a>
+                            <span>|</span>
+                            <a class="shop_col" href="javascript:;">加入收藏夹</a>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="bor_solid">
+                    <th width="40"><input type="checkbox"></th>
+                    <th width="120">
+                        <a class="order_info_img" >
+                            <img class="list_pic"  src="../img/img001.jpg" >
+                        </a>
+                    </th>
+                    <th width="210" valign="top">
+                        <h3 class="list_title per_order_item_title">
+                            <a href="#">如何挖掘自己的销售潜能</a>
+                        </h3>
+                    </th>
+                    <td width="140"><span class="list_price_add">现价：<strong class="orange">0.01</strong>元</span></td>
+                    <td width="90"><span>1</span></td>
+                    <td width="115"><span>--</span></td>
+                    <td >
+                        <div class="shop_item_action">
+                            <a class="shop_del" href="javascript:;">删除</a>
+                            <span>|</span>
+                            <a class="shop_col" href="javascript:;">加入收藏夹</a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <div class="per_shop_check mt_-20">
+                <div class="per_info_check fl clear">
+                    <div class="fl allcheck">
+                        <input type="checkbox" class="allcheck_btn"/>
+                        <span>全选</span>
+                    </div>
+                    <i class="per_info_delete fl">删除</i>
+                </div>
+            </div>
+            <p class="shop_all">已选<span>1</span>个订单，共计：<span>100.00</span>元</p>
+            <div class="shop_btn mt-10">
+                <a class="pay" href="#">结算</a>
+                <a class="continue" href="#">继续选课</a>
+            </div>
+        </div>
+        <div class="no_shop_box dn">
+            <div class="no_order no_shop ">
+                <p>您的购物车是空的，赶紧去选购课程吧！您可以：</p>
+                <p class="mt-30">看看<a href="#">全部课程</a> </p>
+                <p>回顾<a href="#">我的学习</a> </p>
+            </div>
+            <p class="class_title clear ">推荐课程</p>
+            <div class="class_nav_block" style="display: block;">
+                <ul class="class_all_list">
+                    <li>
+                        <a  href="javascript:;" class="db"><img src="../img/allclass.gif" /></a>
+                        <a  href="javascript:;" class="class_all_title">Android开发工程师(岗位Android开发工程师(岗位</a>
+                        <div class="mt-5">
+                            <i class="txt-tag bg-gray mb_5 dib"><span class="dib">合规销售</span></i>
+                            <i class="txt-tag bg-gray mb_5 dib"><span class="dib" >心理</span></i>
+                        </div>
+                        <div class="clear">
+                            <span class="fl fs-14 c-g db">100.00保币</span>
+                            <span class="fr fs-14 c-999"><i class="icon-com zan mr-3"></i>赞（<b>15</b>）</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a  href="javascript:;" class="db"><img src="../img/allclass01.gif" /></a>
+                        <a  href="javascript:;" class="class_all_title">Android开发工程师(岗位Android开发工程师(岗位</a>
+                        <div class="mt-5">
+                            <i class="txt-tag bg-gray mb_5 dib"><span class="dib">合规销售</span></i>
+                            <i class="txt-tag bg-gray mb_5 dib"><span class="dib" >心理</span></i>
+                        </div>
+                        <div class="clear">
+                            <span class="fl fs-14 c-g db">免费</span>
+                            <span class="fr fs-14 c-999"><i class="icon-com zan mr-3"></i>赞（<b>15</b>）</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a  href="javascript:;" class="db"><img src="../img/allclass01.gif" /></a>
+                        <a  href="javascript:;" class="class_all_title">Android开发工程师(岗位Android开发工程师(岗位</a>
+                        <div class="mt-5">
+                            <i class="txt-tag bg-gray mb_5 dib"><span class="dib">合规销售</span></i>
+                            <i class="txt-tag bg-gray mb_5 dib"><span class="dib" >心理</span></i>
+                        </div>
+                        <div class="clear">
+                            <span class="fl fs-14 c-g db">100.00保币</span>
+                            <span class="fr fs-14 c-999"><i class="icon-com zan mr-3"></i>赞（<b>15</b>）</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a  href="javascript:;" class="db"><img src="../img/allclass.gif" /></a>
+                        <a  href="javascript:;" class="class_all_title">Android开发工程师(岗位Android开发工程师(岗位</a>
+                        <div class="mt-5">
+                            <i class="txt-tag bg-gray mb_5 dib"><span class="dib">合规销售</span></i>
+                            <i class="txt-tag bg-gray mb_5 dib"><span class="dib" >心理</span></i>
+                        </div>
+                        <div class="clear">
+                            <span class="fl fs-14 c-g db">免费</span>
+                            <span class="fr fs-14 c-999"><i class="icon-com zan mr-3"></i>赞（<b>15</b>）</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a  href="javascript:;" class="db"><img src="../img/allclass.gif" /></a>
+                        <a  href="javascript:;" class="class_all_title">Android开发工程师(岗位Android开发工程师(岗位</a>
+                        <div class="mt-5">
+                            <i class="txt-tag bg-gray mb_5 dib"><span class="dib">合规销售</span></i>
+                            <i class="txt-tag bg-gray mb_5 dib"><span class="dib" >心理</span></i>
+                        </div>
+                        <div class="clear">
+                            <span class="fl fs-14 c-g db">100.00保币</span>
+                            <span class="fr fs-14 c-999"><i class="icon-com zan mr-3"></i>赞（<b>15</b>）</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a  href="javascript:;" class="db"><img src="../img/allclass.gif" /></a>
+                        <a  href="javascript:;" class="class_all_title">Android开发工程师(岗位Android开发工程师(岗位</a>
+                        <div class="mt-5">
+                            <i class="txt-tag bg-gray mb_5 dib"><span class="dib">合规销售</span></i>
+                            <i class="txt-tag bg-gray mb_5 dib"><span class="dib" >心理</span></i>
+                        </div>
+                        <div class="clear">
+                            <span class="fl fs-14 c-g db">100.00保币</span>
+                            <span class="fr fs-14 c-999"><i class="icon-com zan mr-3"></i>赞（<b>15</b>）</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a  href="javascript:;" class="db"><img src="../img/allclass.gif" /></a>
+                        <a  href="javascript:;" class="class_all_title">Android开发工程师(岗位Android开发工程师(岗位</a>
+                        <div class="mt-5">
+                            <i class="txt-tag bg-gray mb_5 dib"><span class="dib">合规销售</span></i>
+                            <i class="txt-tag bg-gray mb_5 dib"><span class="dib" >心理</span></i>
+                        </div>
+                        <div class="clear">
+                            <span class="fl fs-14 c-g db">免费</span>
+                            <span class="fr fs-14 c-999"><i class="icon-com zan mr-3"></i>赞（<b>15</b>）</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a  href="javascript:;" class="db"><img src="../img/allclass.gif" /></a>
+                        <a  href="javascript:;" class="class_all_title">Android开发工程师(岗位Android开发工程师(岗位</a>
+                        <div class="mt-5">
+                            <i class="txt-tag bg-gray mb_5 dib"><span class="dib">合规销售</span></i>
+                            <i class="txt-tag bg-gray mb_5 dib"><span class="dib" >心理</span></i>
+                        </div>
+                        <div class="clear">
+                            <span class="fl fs-14 c-g db">免费</span>
+                            <span class="fr fs-14 c-999"><i class="icon-com zan mr-3"></i>赞（<b>15</b>）</span>
+                        </div>
+                    </li>
+                    <li>
+                        <a  href="javascript:;" class="db"><img src="../img/allclass.gif" /></a>
+                        <a  href="javascript:;" class="class_all_title">Android开发工程师(岗位Android开发工程师(岗位</a>
+                        <div class="mt-5">
+                            <i class="txt-tag bg-gray mb_5 dib"><span class="dib">合规销售</span></i>
+                            <i class="txt-tag bg-gray mb_5 dib"><span class="dib" >心理</span></i>
+                        </div>
+                        <div class="clear">
+                            <span class="fl fs-14 c-g db">免费</span>
+                            <span class="fr fs-14 c-999"><i class="icon-com zan mr-3"></i>赞（<b>15</b>）</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar fr">
+        <p class="class_title clear">个人档</p>
+        <div class="person_info_box">
+            <div class="person_info_block clear">
+                <img src="../img/user02.gif" />
+                <span>bb_用户用火狐</span>
+            </div>
+            <div class="person_text_block">
+                <img class="person_text_top" src="../img/per_top.gif" />
+                <input type="text" placeholder="梦由心动，跟我走吧，开心不由你！">
+            </div>
+            <div class="person_action_box bb_solid">
+                <a class="action fans" href="javascript:;">粉丝<i>8</i></a>
+                <a class="action care" href="javascript:;">关注<i>8</i></a>
+                <a class="action " href="javascript:;">赞<i>8</i></a>
+            </div>
+            <div class="person_page_list">
+                <ul>
+                    <li><a class="per_home on"  href="javascript:;">我的主页</a> </li>
+                    <li><a class="per_learn"  href="javascript:;">我的学习</a> </li>
+                    <li><a class="per_QA"  href="javascript:;">我的问答</a> </li>
+                    <li><a class="per_col"  href="javascript:;">我的收藏</a> </li>
+                    <li><a class="per_order"  href="javascript:;">我的订单</a> </li>
+                    <li><a class="per_setting"  href="javascript:;">设置</a> </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="copy_right layoutMid clear">
+        <div class="side">
+            <dl>
+                <dt>保宝网</dt>
+                <dd><a href="#">关于保宝网</a></dd>
+                <dd><a href="#">保险导航</a></dd>
+                <dd><a href="#">注册协议</a></dd>
+                <dd><a href="#">网站声明</a></dd>
+                <dd><a href="#">帮助中心</a></dd>
+            </dl>
+        </div>
+        <div class="container clear">
+            <dl>
+                <dt>合作单位</dt>
+                <dd><a href="#">华南理工大学网络教育平台</a></dd>
+                <dd><a href="#">武汉大学网络教育平台</a></dd>
+                <dd><a href="#">北京语言大学网络教育平台</a></dd>
+            </dl>
+            <dl>
+                <dt>专用通道</dt>
+                <dd><a href="#">保险行业协会</a></dd>
+                <dd><a href="#">教育培训信息平台</a></dd>
+                <dd><a href="#">保险信息服务平台</a></dd>
+            </dl>
+        </div>
+        <div class="sidebar">
+            <h2><img src="../img/footer_logo.gif"></h2>
+            <ul>
+                <li>© 1998-2014 保宝网</li>
+                <li>All Rights Reserved</li>
+                <li>粤ICP备09098678号-7</li>
+                <li>增值电信业务经营许可证：粤B2-20040624</li>
+            </ul>
+            <p class="copyright_link clear">
+                <i class="CRlink01">深圳网络警<br>察报警平台</i>
+                <i class="CRlink02">公共信息安<br>全网络监察</i>
+                <i class="CRlink03">工商网监<br>电子标识</i>
+            </p>
+        </div>
+    </div>
+</div>
+<div class="share_bg dn"></div>
+<div class="log_box">
+    <div class="log_box_shadow">
+        <div class="log_hd clear">
+            <a class="log_tab log fl log_current" href="javascript:;">登录</a>
+            <a class="log_tab res fr" href="javascript:;">注册</a>
+            <a class="log_close pngFix" href="javascript:;"></a>
+        </div>
+        <div class="log_bd clear">
+            <div class="log_part fl" style="display:block">
+                <ul class="input">
+                    <li><input class="input_text" type="text" /><i>请输入用户名</i></li>
+                    <li><input class="input_text" type="password" /><i>请输入密码</i></li>
+                    <li><input class="input_text" type="text" /><i>请输入验证码</i><img class="code" src="../img/code.jpg"></li>
+                </ul>
+                <p class="clear"><a href="javascript:;" class="checked fl">记住密码</a><a href="javascript:;" class="fr">忘记密码？</a></p>
+                <div class="log_btn"><a href="javascript:;">登  录</a></div>
+                <div class="log_code">
+                    <i><img src="../img/service_code.jpg"></i>
+                    <span>使用微信扫描二维码登录</span>
+                </div>
+            </div>
+            <div class="log_part fl">
+                <ul class="input">
+                    <li><input class="input_text" type="text" /><i>请输入用户名</i></li>
+                    <li class="log_tips"><p>※用户名为6~18位字符，包含字母和数字</p></li>
+                    <li><input class="input_text" type="password" /><i>请输入密码</i></li>
+                    <li class="log_tips"><p>※用户名为6~18位字符，包含字母和数字</p></li>
+                    <li><input class="input_text" type="text" /><i>请重新输入密码</i></li>
+                    <li class="log_tips"><p>※用户名为6~18位字符，包含字母和数字</p></li>
+                </ul>
+                <p class="clear"><span href="javascript:;" class="checked fl">我已阅读并同意<a href="javascript:;">《保宝网用户注册协议》</a></span></p>
+                <div class="res_btn"><a href="javascript:;">注  册</a></div>
+                <div class="log_code">
+                    <i><img src="../img/service_code.jpg"></i>
+                    <span>使用微信扫描二维码注册</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--提问-->
+<div class="pop_box ques_box">
+    <div class="share_shadow">
+        <div class="pop_hd">
+            <h3>提问基本原则</h3><a href="javascript:;"></a>
+        </div>
+        <div class="pop_bd">
+            <div class="pop_part">
+                <p class="ques_th">保宝网上提问应遵循<strong>真实、客观、简洁、明确、规范、相关</strong>的原则。</p>
+                <ul class="ques_list">
+                    <li><strong>真实：</strong><span>自己思考之后的真实疑惑；</span></li>
+                    <li><strong>客观：</strong><span>理性客观地陈述问题和事实，不偏激；</span></li>
+                    <li><strong>简洁：</strong><span>用简洁的文字提炼问题，不赘述；</span></li>
+                    <li><strong>明确：</strong><span>有针对性的提问，不寻求模糊空洞答案；</span></li>
+                    <li><strong>规范：</strong><span>标点符号、词语和句式严谨规范。</span></li>
+                    <li><strong>相关：</strong><span>内容与所处具体行业相关性。</span></li>
+                    <li>&nbsp;</li>
+                    <li><span>为了提高问题质量，帮助您获得更有用的回答，<strong>提问前请先搜索是否存在已有相近问答</strong>，避免重复提问。</span></li>
+                    <li>&nbsp;</li>
+                    <li><span>更多规范详见<a class="orange"  href="javascript:;">《保宝网提问规范》</a></span></li>
+                </ul>
+                <ul class="input"><li><input class="input_text" type="text" /><i>请输入你的问题</i><a class="search_btn pngFix" href="javascript:;">提问</a></li></ul>
+                <ul class="ques_search">
+                    <li><a  href="javascript:;"><strong>你的问题可能已经有答案</strong></a></li>
+                    <li><a  href="javascript:;"><span>保险的作用是什么？前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么？</span><i>4个回答</i></a></li>
+                    <li><a  href="javascript:;"><span>保险的作用是什么？前景是什么前么前景是什么？</span><i>4个回答</i></a></li>
+                    <li><a  href="javascript:;"><span>保险的作用是什么？前景是什么前么前景是什么？</span><i>4个回答</i></a></li>
+                    <li><a  href="javascript:;"><span>保险的作用是什么？前景是什么前么前景是什么？</span><i>4个回答</i></a></li>
+                    <li><a  href="javascript:;"><span>保险的作用是什么？前景是什么前么前景是什么？</span><i>4个回答</i></a></li>
+                    <li class="ques_new"><a href="javascript:;"><span>没有我要的答案，我要提一个新问题>></span></a></li>
+                </ul>
+            </div>
+            <div class="pop_part2">
+                <ul class="input"><li><input style="width:98%" class="input_text" type="text" /><i>请输入你的问题</i></li></ul>
+                <ul class="ques_search">
+                    <li><a  href="javascript:;"><strong>你的问题可能已经有答案</strong></a></li>
+                    <li><a  href="javascript:;"><span>保险的作用是什么？前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么？</span><i>4个回答</i></a></li>
+                    <li><a  href="javascript:;"><span>保险的作用是什么？前景是什么前么前景是什么？</span><i>4个回答</i></a></li>
+                    <li><a  href="javascript:;"><span>保险的作用是什么？前景是什么前么前景是什么？</span><i>4个回答</i></a></li>
+                    <li><a  href="javascript:;"><span>保险的作用是什么？前景是什么前么前景是什么？</span><i>4个回答</i></a></li>
+                    <li><a  href="javascript:;"><span>保险的作用是什么？前景是什么前么前景是什么？</span><i>4个回答</i></a></li>
+                </ul>
+                <p class="ques_th">问题说明（可选）：</p>
+                <div class="answer_box" style="display:block">
+                    <div class="text_style clear"><a class="text_bold" href="javascript:;" title="加粗"></a><a class="text_italic" href="javascript:;" title="斜体"></a><a class="text_underline" href="javascript:;" title="下划线"></a><span></span><a class="text_ol" href="javascript:;" title="有序列表"></a><a class="text_ul" href="javascript:;" title="无序列表"></a><span></span><a class="text_img" href="javascript:;" title="图片"></a><a class="text_link" href="javascript:;" title="链接"></a><span></span><a class="text_clear" href="javascript:;" title="清除样式"></a></div>
+                    <div class="answer_text input">
+                        <textarea class="input_text"></textarea><i>问题背景、条件等详细说明</i>
+                    </div>
+                </div>
+                <p class="ques_th clear"><span class="fl">选择标签（必选）：</span><span class="fr">您最多只能添加五个标签</span></p>
+                <div class="keywords BBAQ_detail_tags clear">
+                    <a class="tags_item tags_change" href="javascript:;"><strong>保险保险保</strong><span class="invite_clear" href="javascript:;"></span></a>
+                    <a class="tags_item tags_change" href="javascript:;"><strong>保险保险保</strong><span class="invite_clear" href="javascript:;"></span></a>
+                    <a class="tags_item tags_change" href="javascript:;"><strong>保险保险保</strong><span class="invite_clear" href="javascript:;"></span></a>
+                    <a class="tags_item tags_change" href="javascript:;"><strong>保险保险保</strong><span class="invite_clear" href="javascript:;"></span></a>
+                    <a class="tags_item tags_change" href="javascript:;"><strong>保险保险保</strong><span class="invite_clear" href="javascript:;"></span></a>
+                </div>
+                <div class="tags_search">
+                    <div class="input">
+                        <input class="input_text" type="text" /><i>请输入标签搜索</i>
+                        <ul class="tags_list">
+                            <li class="tags_items"><a class="tags" href="javascript:;">保险人</a></li>
+                            <li class="tags_items"><a class="tags" href="javascript:;">保险人</a></li>
+                            <li class="tags_items"><a class="tags" href="javascript:;">从业资格证</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="pop_sent clear"><a href="javascript:;" class="checked fl">匿名</a><a class="pop_clear" href="javascript:;">取消</a><a class="pop_com pop_true" href="javascript:;">提问</a></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--客服-->
+<div class="float_side">
+    <ul>
+        <li>
+            <a  href="javascript:;"><span class="sidebox feed_back" ><img class="pngFix" src="../img/side_icon01.png"><em>反馈信息</em></span>
+            </a>
+        </li>
+        <li>
+            <a  href="javascript:;"><span class="sidebox" ><img class="pngFix" src="../img/side_icon02.png"><em>在线客服</em>在线客服</span></a>
+        </li>
+        <li >
+            <a class="sidetop"  href="javascript:;"><img class="pngFix" src="../img/side_icon03.png"></a>
+        </li>
+    </ul>
+</div>
+<!--举报-->
+<div class="pop_box report_box">
+    <div class="invite_shadow">
+        <div class="pop_hd">
+            <h3>为什么举报？</h3>
+            <a href="javascript:;"></a>
+        </div>
+        <div class="pop_bd">
+            <div class="pop_part">
+                <h4 style="color: #333">请选择举报理由（恶意举报的用户，将对其禁言一个月）：</h4>
+                <ul>
+                    <li class="report_item"><a class="radio" href="javascript:;">反社会言行</a></li>
+                    <li class="report_item"><a class="radio" href="javascript:;">含有辱骂字段</a></li>
+                    <li class="report_item"><a class="radio" href="javascript:;">其他</a></li>
+                    <li class="report_item"><a class="radio" href="javascript:;">包含违法内容</a></li>
+                    <li class="report_item"><a class="radio" href="javascript:;">陈述内容不符合要求</a></li>
+                </ul>
+                <h4>请上传相关凭证（必填）</h4>
+                <div class="video_upload">
+                    <div class="file_name"></div>
+                    <a class="upload_btn" href="javascript:;" >浏览</a>
+                    <input class="reportpars" type="file" />
+                </div>
+                <div class="pop_sent">
+                    <a class="pop_clear" href="javascript:;">取消</a>
+                    <a class="pop_com" href="javascript:;">确定</a>
+                </div>
+            </div>
+            <div class="success_tips">
+                <span>您好，您的举报已经申请成功，审核通过后会发出系统通知！</span>
+                <br>
+                <a class="turn_time" >3</a>
+                <span>秒后页面将自动关闭</span>
+            </div>
+        </div>
+    </div>
+</div>
+<!--反馈-->
+<div class="pop_box feed_back_box">
+    <div class="invite_shadow">
+        <div class="pop_hd">
+            <h3>信息反馈</h3>
+            <a href="javascript:;"></a>
+        </div>
+        <div class="pop_bd">
+            <div class="pop_part">
+                <table>
+                    <tr class="fb_text">
+                        <th width="80" valign="top">反馈内容：</th>
+                        <td>
+                            <div class="input pr" style="border-color: rgb(223, 223, 223);">
+                                <textarea class="input_text fd_textarea" placeholder="欢迎提出您在使用保宝网时遇到的问题或宝贵意见，感谢您对保宝网的支持。"></textarea>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="fb_upload">
+                        <th>上传图片：</th>
+                        <td>
+                            <div class="pr">
+                                <div class="file_name"></div>
+                                <a class="upload_btn" href="javascript:;" style="padding:0 20px; overflow:hidden">浏览<input type="file" style="position:absolute;cursor:pointer;z-index:10;right:0;top:0;width:300%;height:100%;opacity:0;filter:alpha(opacity=0);"></a>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="fb_input">
+                        <th>联系方式：</th>
+                        <td>
+                            <div class="input pr">
+                                <input class="input_text fb_mail" type="text" placeholder="留下您的邮箱，便于我们及时回复你。">
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <div class="pop_sent">
+                    <span></span>
+                    <a class="pop_clear" href="javascript:;">取消</a>
+                    <a class="pop_com fd_btn" href="javascript:;">提交</a>
+                </div>
+            </div>
+            <div class="success_tips">
+                <h3>反馈成功!</h3>
+                <a class="turn_time">3</a>
+                <span> 秒后页面将自动关闭</span>
+            </div>
+        </div>
+    </div>
+</div>
+<!--删除订单-->
+<div class="pop_box alertbox shop_delete dn" style="display: none;">
+    <div class="invite_shadow">
+        <div class="pop_hd">
+            <h3>提示信息</h3>
+            <a href="javascript:;"></a>
+        </div>
+        <div class="pop_bd">
+            <div class="pop_part">
+                <h3 class="pop_caution">确定删除这个课程？</h3>
+                <div class="pop_sent">
+                    <a class="pop_clear" href="javascript:;">取消</a>
+                    <a class=" shop_delete_true" href="javascript:;">确定</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--未选择提醒-->
+<div class="pop_box alertbox no_shop_delete" style="display: none;">
+    <div class="invite_shadow">
+        <div class="pop_hd">
+            <h3>提示信息</h3>
+            <a href="javascript:;"></a>
+        </div>
+        <div class="pop_bd">
+            <div class="pop_part">
+                <h3 class="pop_caution" style="margin-bottom: 20px;">请勾选需要删除的课程</h3>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

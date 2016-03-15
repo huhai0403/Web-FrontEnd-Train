@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../font/iconfont.css" />
+    <link href="../css/main.css" rel="stylesheet">
+    <script src="../js/jquery.js"></script>
+    <script src="../js/jquery.SuperSlide.2.1.1.js"></script>
+    <script src="../js/main.js"></script>
+    <title>用户服务协议</title>
+</head>
+<body>
+    <div  class="header">
+        <div class="top layoutMid clear">
+            <h1 class="logo fl"><a class="pngFix" href="javascript:;"></a></h1>
+            <a class="toggle_nav" href="javascript:;"></a>
+            <ul class="main_nav fl clear">
+                <li><a href="javascript:;">首页</a></li>
+                <li><a href="javascript:;">学习</a></li>
+                <li><a class="current" href="javascript:;">资讯</a></li>
+                <li><a href="javascript:;">问答</a></li>
+            </ul>
+            <div class="user fr">
+                <a class="clear" href="javascript:;"><span class="user_head fl"><img src="../img/user_head.jpg"><i class="notice_num pngFix">1</i></span><span class="user_name fl">maxiaoning</span></a>
+                <ul class="sub_menu clear">
+                    <li class="icoTop"><span></span></li>
+                    <li><a href="javascript:;">我的主页</a></li>
+                    <li><a href="javascript:;">消息(1)</a></li>
+                    <li><a href="javascript:;">设置</a></li>
+                    <li><a class="log_out" href="javascript:;">退出</a></li>
+                </ul>
+            </div>
+            <div class="log_res fr">
+                <a href="javascript:;">登录/注册</a>
+            </div>
+            <div class="queation fr"><a href="javascript:;">提问</a></div>
+            <div class="search pr fr clear">
+                <input type="text" class="fl" placeholder="请输入关键字" />
+                <a class="search_btn pngFix" href="javascript:;">搜索</a>
+                <div class="search_box">
+                    <dl>
+                        <dt>课程</dt>
+                        <dd><a href="javascript:;"><em>《<span class="orange">保险</span>业发展与前景》</em><i>赞(28)</i><i>课程时长：128分钟</i></a></dd>
+                        <dd><a href="javascript:;"><em>《<span class="orange">保险</span>业发展与前景》</em><i>赞(28)</i><i>课程时长：128分钟</i></a></dd>
+                        <dd><a href="javascript:;"><em>《<span class="orange">保险</span>业发展与前景》</em><i>赞(28)</i><i>课程时长：128分钟</i></a></dd>
+                        <dt>问答</dt>
+                        <dd><a href="javascript:;"><em><span class="orange">保险</span>的作用是什么？前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么？</em><i>4个回答</i></a></dd>
+                        <dd><a href="javascript:;"><em><span class="orange">保险</span>的作用是什么？前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么？</em><i>4个回答</i></a></dd>
+                        <dd><a href="javascript:;"><em><span class="orange">保险</span>的作用是什么？前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么？</em><i>4个回答</i></a></dd>
+                        <dt>资讯</dt>
+                        <dd><a href="javascript:;"><em><span class="orange">保险</span>业发展与前景发展与前景发展与前景发展与前景发展与前景发展与前前景发展与前景发展与前前景发展与前景发展与前景发</em><i>赞(28)</i><i>评论(28)</i></a></dd>
+                        <dd><a href="javascript:;"><em><span class="orange">保险</span>业发展与前景发展与前景发展与前景发展与前景发展与前景发展与前景发</em><i>赞(28)</i><i>评论(28)</i></a></dd>
+                        <dd><a href="javascript:;"><em><span class="orange">保险</span>业发展与前景发展与前景发展与前景发展与前景发展与前景发展与前景发</em><i>赞(28)</i><i>评论(28)</i></a></dd>
+                        <dt>用户</dt>
+                        <dd class="search_user"><a class="clear" href="javascript:;"><img src="../img/zone_pic02.jpg"><em><span class="orange">保险</span>人</em><br><i>梦由心动，跟我走吧，开心不由你！</i></a></dd>
+                        <dd class="search_user"><a class="clear" href="javascript:;"><img src="../img/zone_pic02.jpg"><em><span class="orange">保险</span>人</em><br><i>梦由心动，跟我走吧，开心不由你！</i></a></dd>
+                        <dd class="search_user"><a class="clear" href="javascript:;"><img src="../img/zone_pic02.jpg"><em><span class="orange">保险</span>人</em><br><i>梦由心动，跟我走吧，开心不由你！</i></a></dd>
+                    </dl>
+                    <p><a href="javascript:;">查看全部搜索结果</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main layoutMid">
+        <div class="bb_state">
+            <h1>保宝网用户服务协议</h1>
+            <div class="bb_state_main">
+                <div class="bb_agreement">
+                    <strong>1、协议的确认及接纳 </strong>
+                    <p>本协议中所列条款内容最终解释权归保宝网所有，保宝网完全遵守并执行本协议所列条款及操作规则；同时只有您在完全接受本协议并成功完成注册程序，才能成为保宝网的注册用户。</p>
+                    <strong>2、协议的适用范围</strong>
+                    <p>本协议适用范围包括：在保宝网所进行的一切相关服务，包括“保宝”工具、网络培训、网络考核、在线交流、视频观看等。</p>
+                    <strong>3、协议的变更和修改 </strong>
+                    <p>保宝网在认为必要时，有权对本协议进行更改。协议一旦发生任何变更，将在保宝网站上公布，并在公布之日起立即生效。如果您继续使用保宝网的相关服务，则视为接受协议条款的变更；如果您不同意变更后的协议，则必须立即主动提出停止接受服务的要求。</p>
+                    <strong>4、服务对象  </strong>
+                    <p>保宝网规定“保宝”服务内容(以下简称“服务”)仅提供给接受本协议规定，并具有法人资格的单位或具有完全民事行为能力的个人使用；同时，保宝网在认为有合理理由的情况下，有权随时决定拒绝向任何个人或单位提供服务。</p>
+                    <strong>5、服务内容及说明</strong>
+                    <p>(1)保宝网网络服务的具体内容由保宝网根据实际情况提供，例如在线视频、搜索、电子邮件、发表评论等。  </p>
+                    <p>(2)保宝网提供的部分网络服务（例如在线视频等）为收费的网络服务，用户使用收费网络服务需要向保宝网支付一定的费用。对于收费的网络服务，保宝网会在用户使用之前给予用户明确的提示，只有用户根据提示确认其愿意支付相关费用，用户才能使用该等收费网络服务。如用户拒绝支付相关费用，则保宝网有权不向用户提供该等收费网络服务。</p>
+                    <p>(3)除非另有明确规定，保宝网增加或强化“保宝”目前服务的任何新内容、新功能，均无条件地适用本协议。</p>
+                    <p>(4)为使用保宝网的服务，您必须：</p>
+                    <p>a.自行配备计算机和上网所需设备，包括调制解调器或其他必备上网装置。</p>
+                    <p>b.自行承担电话费用、网络费用，以及在使用服务过程中形成的其他一切费用。</p>
+                    <strong>6、服务的修改和终止</strong>
+                    <p>保宝网有权在任何时候，在事先通知的情况下，暂时或永久地修改或终止服务(或其中任何一部分)。</p>
+                    <strong>7、用户守则 </strong>
+                    <p>(1)您在填写注册信息时，必须提供真实、准确、完整、最新的资料。用户注册成功后，保宝网将给予每个用户一个用户帐号及相应的密码，该用户帐号和密码由用户负责保管，但保宝网可协助用户找回密码；用户应当对以其用户帐号进行的所有活动和事件负法律责任。</p>
+                    <p>(2)您在使用服务时，必须遵守有关法律、法规的规定。</p>
+                    <strong>8、免责声明</strong>
+                    <p>(1)保宝网不保证服务一定会满足用户的使用要求，也不保证服务不会中断、且适时、安全和不带任何错误。</p>
+                    <p>(2)您在使用保宝网进行的一切活动均由会员自行负责，保宝网不承担因此而引起的任何直接或间接责任。 </p>
+                    <strong>9、保宝网的知识产权及其他权利  </strong>
+                    <p>(1)保宝网提供的网络服务中包含的任何文本、图片、图形、音频和/或视频资料均受版权、商标和/或其它财产所有权法律的保护，未经相关权利人同意，上述资料均不得在任何媒体直接或间接发布、播放、出于播放或发布目的而改写或再发行，或者被用于其他任何商业目的。所有这些资料或资料的任何部分仅可作为私人和非商业用途而保存在某台计算机内。保宝网不就由上述资料产生或在传送或递交全部或部分上述资料过程中产生的延误、不准确、错误和遗漏或从中产生或由此产生的任何损害赔偿，以任何形式，向用户或任何第三方负责。
+                    <p>(2)保宝网为提供网络服务而使用的任何软件（包括但不限于软件中所含的任何图象、照片、动画、录像、录音、音乐、文字和附加程序、随附的帮助材料）的一切权利均属于该软件的著作权人，未经该软件的著作权人许可，用户不得对该软件进行反向工程（reverse engineer）、反向编译（decompile）或反汇编（disassemble）。</p>
+                    <p>(3)保宝网对服务及“保宝”中包含的受知识产权或其他法律保护的资料享有相应的权利。</p>
+                    <p>(4)经由“保宝”传送的资讯及内容，受到著作权法、商标法、专利法或其他法律的保护；未经保宝网明确授权许可，用户不得进行复制、修改、出租、散布或衍生其他作品，或用以商业性目的。</p>
+                    <p>(5)保宝网及“保宝”相关的设计标识和服务名称，均为保宝网所享有的商标。任何人不得使用、复制或用作其他用途。 </p></p>
+                    <strong>10、仲裁</strong>
+                    <p>因本协议或保宝网站提供的服务所引起的任何争议应提交深圳仲裁委员会进行仲裁裁决。</p>
+                    <h4 class="orange">热线电话： 400-600-6363 邮箱：baoxian@longrise.com.cn</h4>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="footer">
+        <div class="copy_right layoutMid clear">
+            <div class="side">
+                <dl>
+                    <dt>保宝网</dt>
+                    <dd><a href="#">关于保宝网</a></dd>
+                    <dd><a href="#">保险导航</a></dd>
+                    <dd><a href="#">注册协议</a></dd>
+                    <dd><a href="#">网站声明</a></dd>
+                    <dd><a href="#">帮助中心</a></dd>
+                </dl>
+            </div>
+            <div class="container clear">
+                <dl>
+                    <dt>合作单位</dt>
+                    <dd><a href="#">华南理工大学网络教育平台</a></dd>
+                    <dd><a href="#">武汉大学网络教育平台</a></dd>
+                    <dd><a href="#">北京语言大学网络教育平台</a></dd>
+                </dl>
+                <dl>
+                    <dt>专用通道</dt>
+                    <dd><a href="#">保险行业协会</a></dd>
+                    <dd><a href="#">教育培训信息平台</a></dd>
+                    <dd><a href="#">保险信息服务平台</a></dd>
+                </dl>
+            </div>
+            <div class="sidebar">
+                <h2><img src="../img/footer_logo.gif"></h2>
+                <ul>
+                    <li>© 1998-2014 保宝网</li>
+                    <li>All Rights Reserved</li>
+                    <li>粤ICP备09098678号-7</li>
+                    <li>增值电信业务经营许可证：粤B2-20040624</li>
+                </ul>
+                <p class="copyright_link clear">
+                    <i class="CRlink01">深圳网络警<br>察报警平台</i>
+                    <i class="CRlink02">公共信息安<br>全网络监察</i>
+                    <i class="CRlink03">工商网监<br>电子标识</i>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--购物车-->
+    <div class="float_side float_shop">
+        <div>
+            <ul class="clear">
+                <li class="sideshop">
+                    <a class="pngFix" href="javascript:;"><span>购<br>物<br>车</span>
+                        <i>0</i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--遮罩-->
+    <div class="share_bg dn"></div>
+    <!--登陆-->
+    <div class="log_box">
+        <div class="log_box_shadow">
+            <div class="log_hd clear">
+                <a class="log_tab log fl log_current" href="javascript:;">登录</a>
+                <a class="log_tab res fr" href="javascript:;">注册</a>
+                <a class="log_close pngFix" href="javascript:;"></a>
+            </div>
+            <div class="log_bd clear">
+                <div class="log_part fl" style="display:block">
+                    <ul class="input">
+                        <li><input class="input_text" type="text" /><i>请输入用户名</i></li>
+                        <li><input class="input_text" type="password" /><i>请输入密码</i></li>
+                        <li><input class="input_text" type="text" /><i>请输入验证码</i><img class="code" src="../img/code.jpg"></li>
+                    </ul>
+                    <p class="clear"><a href="javascript:;" class="checked fl">记住密码</a><a href="javascript:;" class="fr">忘记密码？</a></p>
+                    <div class="log_btn"><a href="javascript:;">登  录</a></div>
+                    <div class="log_code">
+                        <i><img src="../img/service_code.jpg"></i>
+                        <span>使用微信扫描二维码登录</span>
+                    </div>
+                </div>
+                <div class="log_part fl">
+                    <ul class="input">
+                        <li><input class="input_text" type="text" /><i>请输入用户名</i></li>
+                        <li class="log_tips"><p>※用户名为6~18位字符，包含字母和数字</p></li>
+                        <li><input class="input_text" type="password" /><i>请输入密码</i></li>
+                        <li class="log_tips"><p>※用户名为6~18位字符，包含字母和数字</p></li>
+                        <li><input class="input_text" type="text" /><i>请重新输入密码</i></li>
+                        <li class="log_tips"><p>※用户名为6~18位字符，包含字母和数字</p></li>
+                    </ul>
+                    <p class="clear"><span href="javascript:;" class="checked fl">我已阅读并同意<a href="javascript:;">《保宝网用户注册协议》</a></span></p>
+                    <div class="res_btn"><a href="javascript:;">注  册</a></div>
+                    <div class="log_code">
+                        <i><img src="../img/service_code.jpg"></i>
+                        <span>使用微信扫描二维码注册</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--提问-->
+    <div class="pop_box ques_box">
+        <div class="share_shadow">
+            <div class="pop_hd">
+                <h3>提问基本原则</h3><a href="javascript:;"></a>
+            </div>
+            <div class="pop_bd">
+                <div class="pop_part">
+                    <p class="ques_th">保宝网上提问应遵循<strong>真实、客观、简洁、明确、规范、相关</strong>的原则。</p>
+                    <ul class="ques_list">
+                        <li><strong>真实：</strong><span>自己思考之后的真实疑惑；</span></li>
+                        <li><strong>客观：</strong><span>理性客观地陈述问题和事实，不偏激；</span></li>
+                        <li><strong>简洁：</strong><span>用简洁的文字提炼问题，不赘述；</span></li>
+                        <li><strong>明确：</strong><span>有针对性的提问，不寻求模糊空洞答案；</span></li>
+                        <li><strong>规范：</strong><span>标点符号、词语和句式严谨规范。</span></li>
+                        <li><strong>相关：</strong><span>内容与所处具体行业相关性。</span></li>
+                        <li>&nbsp;</li>
+                        <li><span>为了提高问题质量，帮助您获得更有用的回答，<strong>提问前请先搜索是否存在已有相近问答</strong>，避免重复提问。</span></li>
+                        <li>&nbsp;</li>
+                        <li><span>更多规范详见<a class="orange"  href="javascript:;">《保宝网提问规范》</a></span></li>
+                    </ul>
+                    <ul class="input"><li><input class="input_text" type="text" /><i>请输入你的问题</i><a class="search_btn pngFix" href="javascript:;">提问</a></li></ul>
+                    <ul class="ques_search">
+                        <li><a  href="javascript:;"><strong>你的问题可能已经有答案</strong></a></li>
+                        <li><a  href="javascript:;"><span>保险的作用是什么？前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么？</span><i>4个回答</i></a></li>
+                        <li><a  href="javascript:;"><span>保险的作用是什么？前景是什么前么前景是什么？</span><i>4个回答</i></a></li>
+                        <li><a  href="javascript:;"><span>保险的作用是什么？前景是什么前么前景是什么？</span><i>4个回答</i></a></li>
+                        <li><a  href="javascript:;"><span>保险的作用是什么？前景是什么前么前景是什么？</span><i>4个回答</i></a></li>
+                        <li><a  href="javascript:;"><span>保险的作用是什么？前景是什么前么前景是什么？</span><i>4个回答</i></a></li>
+                        <li class="ques_new"><a href="javascript:;"><span>没有我要的答案，我要提一个新问题>></span></a></li>
+                    </ul>
+                </div>
+                <div class="pop_part2">
+                    <ul class="input"><li><input style="width:98%" class="input_text" type="text" /><i>请输入你的问题</i></li></ul>
+                    <ul class="ques_search">
+                        <li><a  href="javascript:;"><strong>你的问题可能已经有答案</strong></a></li>
+                        <li><a  href="javascript:;"><span>保险的作用是什么？前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么前景是什么？</span><i>4个回答</i></a></li>
+                        <li><a  href="javascript:;"><span>保险的作用是什么？前景是什么前么前景是什么？</span><i>4个回答</i></a></li>
+                        <li><a  href="javascript:;"><span>保险的作用是什么？前景是什么前么前景是什么？</span><i>4个回答</i></a></li>
+                        <li><a  href="javascript:;"><span>保险的作用是什么？前景是什么前么前景是什么？</span><i>4个回答</i></a></li>
+                        <li><a  href="javascript:;"><span>保险的作用是什么？前景是什么前么前景是什么？</span><i>4个回答</i></a></li>
+                    </ul>
+                    <p class="ques_th">问题说明（可选）：</p>
+                    <div class="answer_box" style="display:block">
+                        <div class="text_style clear"><a class="text_bold" href="javascript:;" title="加粗"></a><a class="text_italic" href="javascript:;" title="斜体"></a><a class="text_underline" href="javascript:;" title="下划线"></a><span></span><a class="text_ol" href="javascript:;" title="有序列表"></a><a class="text_ul" href="javascript:;" title="无序列表"></a><span></span><a class="text_img" href="javascript:;" title="图片"></a><a class="text_link" href="javascript:;" title="链接"></a><span></span><a class="text_clear" href="javascript:;" title="清除样式"></a></div>
+                        <div class="answer_text input">
+                            <textarea class="input_text"></textarea><i>问题背景、条件等详细说明</i>
+                        </div>
+                    </div>
+                    <p class="ques_th clear"><span class="fl">选择标签（必选）：</span><span class="fr">您最多只能添加五个标签</span></p>
+                    <div class="keywords BBAQ_detail_tags clear">
+                        <a class="tags_item tags_change" href="javascript:;"><strong>保险保险保</strong><span class="invite_clear" href="javascript:;"></span></a>
+                        <a class="tags_item tags_change" href="javascript:;"><strong>保险保险保</strong><span class="invite_clear" href="javascript:;"></span></a>
+                        <a class="tags_item tags_change" href="javascript:;"><strong>保险保险保</strong><span class="invite_clear" href="javascript:;"></span></a>
+                        <a class="tags_item tags_change" href="javascript:;"><strong>保险保险保</strong><span class="invite_clear" href="javascript:;"></span></a>
+                        <a class="tags_item tags_change" href="javascript:;"><strong>保险保险保</strong><span class="invite_clear" href="javascript:;"></span></a>
+                    </div>
+                    <div class="tags_search">
+                        <div class="input">
+                            <input class="input_text" type="text" /><i>请输入标签搜索</i>
+                            <ul class="tags_list">
+                                <li class="tags_items"><a class="tags" href="javascript:;">保险人</a></li>
+                                <li class="tags_items"><a class="tags" href="javascript:;">保险人</a></li>
+                                <li class="tags_items"><a class="tags" href="javascript:;">从业资格证</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="pop_sent clear"><a href="javascript:;" class="checked fl">匿名</a><a class="pop_clear" href="javascript:;">取消</a><a class="pop_com pop_true" href="javascript:;">提问</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--客服-->
+    <div class="float_side">
+        <ul>
+            <li>
+                <a  href="javascript:;"><span class="sidebox feed_back" ><img class="pngFix" src="../img/side_icon01.png"><em>反馈信息</em></span>
+                </a>
+            </li>
+            <li>
+                <a  href="javascript:;"><span class="sidebox" ><img class="pngFix" src="../img/side_icon02.png"><em>在线客服</em>在线客服</span></a>
+            </li>
+            <li >
+                <a class="sidetop"  href="javascript:;"><img class="pngFix" src="../img/side_icon03.png"></a>
+            </li>
+        </ul>
+    </div>
+    <!--反馈-->
+    <div class="pop_box feed_back_box">
+        <div class="invite_shadow">
+            <div class="pop_hd">
+                <h3>信息反馈</h3>
+                <a href="javascript:;"></a>
+            </div>
+            <div class="pop_bd">
+                <div class="pop_part">
+                    <table>
+                        <tr class="fb_text">
+                            <th width="80" valign="top">反馈内容：</th>
+                            <td>
+                                <div class="input pr" style="border-color: rgb(223, 223, 223);">
+                                    <textarea class="input_text fd_textarea" placeholder="欢迎提出您在使用保宝网时遇到的问题或宝贵意见，感谢您对保宝网的支持。"></textarea>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="fb_upload">
+                            <th>上传图片：</th>
+                            <td>
+                                <div class="pr">
+                                    <div class="file_name"></div>
+                                    <a class="upload_btn" href="javascript:;" style="padding:0 20px; overflow:hidden">浏览<input type="file" style="position:absolute;cursor:pointer;z-index:10;right:0;top:0;width:300%;height:100%;opacity:0;filter:alpha(opacity=0);"></a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="fb_input">
+                            <th>联系方式：</th>
+                            <td>
+                                <div class="input pr">
+                                    <input class="input_text fb_mail" type="text" placeholder="留下您的邮箱，便于我们及时回复你。">
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <div class="pop_sent">
+                        <span></span>
+                        <a class="pop_clear" href="javascript:;">取消</a>
+                        <a class="pop_com fd_btn" href="javascript:;">提交</a>
+                    </div>
+                </div>
+                <div class="success_tips">
+                    <h3>反馈成功!</h3>
+                    <a class="turn_time">3</a>
+                    <span> 秒后页面将自动关闭</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
