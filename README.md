@@ -14,8 +14,9 @@
 任务：完成保宝网资讯页面部分功能(登录、注册、分享、收藏不做)  
 前端(预计耗时2周)：              
 一、**`静态页面html+css`**           
-由 * 胡海 * 带领完成css、html培训
-参考文件详见`html+css`文件夹，代码仅供参考。
+由 * 胡海 * 带领完成css、html培训   
+参考文件详见`html+css`文件夹，代码仅供参考。  
+
 二、**`avalon+require+jquery+express+nodejs+fis3`**          
 由 * 张安格 * 带领完成前端框架培训     
 三、**`karma+jasmine+requirejs+coverage+phantomjs`**                
