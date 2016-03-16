@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <link href="main.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <h3>（一）样式的优先级</h3>
+    <pre>
+        <h5>（外部样式）<（内部样式） <（内联样式）</h5>
+        <p>外部样式：外部引入的css表 </p>
+        <p>内部样式：头部中写入的样式</p>
+        <p>内联样式：标签上的style样式</p>
+        <a href="example/样式优先级.html" target="_blank">样式优先级例子</a>
+    </pre>
+    <h3>（二）选择器的优先级</h3>
+    <pre>
+        <img src="img/3.png" />
+        <h5>1.内联样式表的权值最高 1000；</h5>
+        <h5>2.ID 选择器的权值为 100;</h5>
+        <h5>3.Class 类选择器的权值为 10;</h5>
+        <h5>4.HTML 标签选择器的权值为 1 ;</h5>
+        <a href="example/选择器优先级.html" target="_blank">选择器优先级例子</a>
+    </pre>
+    <h3>（三）css优先级法则</h3>
+    <pre>
+        <h5>A  选择器都有一个权值，权值越大越优先；</h5>
+        <h5>B  当权值相等时，后出现的样式表设置要优于先出现的样式表设置；</h5>
+        <h5>C  创作者的规则高于浏览者：即网页编写者设置的CSS 样式的优先权高于浏览器所设置的样式；</h5>
+        <h5>D  继承的CSS 样式不如后来指定的CSS 样式；</h5>
+        <h5>E  在同一组属性设置中标有“!important”规则的优先级最大</h5>
+        <a href="example/css优先级.html" target="_blank">css优先级法则图</a>
+    </pre>
+
+    <h3>（四）CSS 选择符</h3>
+    <pre>
+        <h5>1.id选择器(# myid)</h5>
+        <h5>2.类选择器（.myclassname）</h5>
+        <h5>3.标签选择器（div, h1, p）</h5>
+        <h5>4.相邻选择器（h1 + p）</h5>
+        <h5>5.子选择器（ul &gt; li）</h5>
+        <h5>6.后代选择器（li a）</h5>
+        <h5>7.通配符选择器（ * ）</h5>
+        <h5>8.属性选择器（a[rel = &quot;external&quot;]）</h5>
+        <h5>9.伪类选择器（a: hover, li:nth-child）</h5>
+    </pre>
+    <h3>（五）display</h3>
+    <pre>
+        <h5>1.display常见的值</h5>
+        <img src="img/1.png"/>
+    </pre>
+    <h3>（六）position</h3>
+    <pre>
+        <h5>1.position常见的值</h5>
+        <img src="img/5.png"/>
+    </pre>
+    <h3>（七）overflow</h3>
+    <pre>
+        <h5>1.overflow常见的值</h5>
+        <img src="img/6.png"/>
+        <h5>2.overflow用法</h5>
+        <p>文字超出宽度省略号显示：overflow:hidden; white-space: nowrap; text-overflow: ellipsis;（文字需要有宽度才能进行截取） </p>
+    </pre>
+</body>
+</html>
